@@ -1,5 +1,7 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css';
 
+//General project CSS
+
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -11,4 +13,90 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+}
+
+main {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--page-text);
+  font-family: var(--body-font);
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+header {
+  z-index: 10;
+  position: sticky;
+  top: 0;
+}
+
+// Portfolio CSS
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  align-items: center;
+  border-bottom: 0.5px solid rgb(225, 225, 225);
+  background-color: rgb(255, 255, 255);
+
+  ul {
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+    margin: 0;
+  }
+
+  li {
+    font-size: 20px;
+  }
+
+  li + li {
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+}
+.nav-left img {
+  vertical-align: bottom;
+  margin-left: 10px;
+}
+
+.nav-right {
+  padding-right: 10px;
+
+  li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+  }
+}
+
+.heart {
+  color: red;
+}
+
+.paw {
+  color: brown;
+  transform: rotate(35deg);
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+  // font-family: var(--h2-font);
+  font-size: 11px;
+  background-color: rgb(157, 221, 240);
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  height: 45px;
+  align-items: center;
 }
