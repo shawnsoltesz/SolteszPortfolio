@@ -20,7 +20,7 @@ body {
 main {
   margin: 0;
   min-height: 100vh;
-  color: rgb(87, 65, 23);
+  color: rgb(85, 77, 61);
 }
 
 ul {
@@ -134,7 +134,7 @@ header {
     margin: 1rem 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    background-color: rgb(87, 65, 23);
+    background-color: rgb(85, 77, 61);
     color: white;
     border-radius: 20px;
     padding: 1rem 2rem;
@@ -241,27 +241,44 @@ header {
   margin-bottom: 1rem;
 }
 
-.contact ul {
-  background-color: rgb(87, 65, 23);
-  padding: 0.75rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  display: flex;
-  justify-content: space-around;
-  font-size: 36px;
+.contact {
+  background-color: rgb(85, 77, 61);
   color: rgb(252, 249, 249);
-  flex-wrap: wrap;
+  padding: 1rem;
+  margin-bottom: 1rem;
 
-  :hover {
-    color: rgb(204, 73, 50);
+  ul {
+    padding: 0.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 48px;
+    flex-wrap: wrap;
+    color: rgb(177, 216, 211);
   }
-
-  :active {
-    color: rgb(128, 48, 34);
-  }
-
   li {
-    margin-top: 0.5rem;
+    background-color: rgb(44, 145, 176);
+    border-radius: 50px;
+    padding: 1.5rem;
+    display: flex;
+    margin-top: 1px;
+    justify-content: center;
+
+    .github,
+    .linkedin {
+      font-size: 50px;
+    }
+
+    :hover {
+      color: rgb(204, 73, 50);
+    }
+
+    :active {
+      color: rgb(128, 48, 34);
+    }
   }
 }
 

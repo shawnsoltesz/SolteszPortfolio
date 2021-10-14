@@ -105,22 +105,28 @@ export function App() {
             <h3>Summary</h3>
             {/* <p>Curious, Entrepreneurial and Optimistic</p> */}
             <p>
-              After spending 15 years in various operational and implementation
-              roles within Ed Tech, Shawn felt unsure of his exact career
-              trajectory. Therefore after considering what excited him about his
-              work experiences, all signs pointed to working with the products
-              and the users. Therefore, he decided to take a pause and pursue
-              the skills and knowledge that offered opportunities to be hands on
-              with building and supporting the products created and offered to
-              the end-user.
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry&apos;s standard dummy
+              text ever since the 1500s, when an unknown printer took a galley
+              of type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
             </p>
             <p>
-              Shawn is a multifaceted professional who is interested in pursuing
-              a career in QA dev, technology solutions in the front end realm.
-              He’s flexible, curious, analytical, and has a knack for ensuring
-              results are in line with expected outcomes. He possesses
-              experience with agile software development and the tools used to
-              support this approach through the SDLC.
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry&apos;s standard dummy
+              text ever since the 1500s, when an unknown printer took a galley
+              of type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
             </p>
 
             {/* <h3>Technical</h3> */}
@@ -293,24 +299,26 @@ export function App() {
           <h2>Portfolio</h2>
           <h3>StPete.pet</h3>
           <p>
-            StPete.pet celebrates the inclusiveness our city possesses through
-            capturing the various pet oriented, or pet friendly businesses and
-            points of interest within St Petersburg, FL. Not only does it
-            provide an interactive map highlighting the location of these
-            featured places, but it also provides descriptive information and
-            links to their website for the user to explore further. This
-            capstone project will be released to the public and updated based on
-            the current roadmap and user feedback.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry&apos;s standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book. It has survived
+            not only five centuries, but also the leap into electronic
+            typesetting, remaining essentially unchanged. It was popularised in
+            the 1960s with the release of Letraset sheets containing Lorem Ipsum
+            passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.
           </p>
         </div>
-        <h2>Contact</h2>
+
         <div className="contact">
+          <h2>Contact</h2>
           <ul>
             <li>
-              <i className="fab fa-github-square"></i>
+              <i className="github fab fa-github-square"></i>
             </li>
             <li>
-              <i className="fab fa-linkedin"></i>
+              <i className="linkedin fab fa-linkedin"></i>
             </li>
             <li>
               <i className="fas fa-envelope"></i>
