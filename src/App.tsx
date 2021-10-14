@@ -40,13 +40,14 @@ export function App() {
         <h1>Hello and Welcome</h1>
         <div className="home">
           <h2>Insert</h2>
+
+          <div className="headshot">
+            <img src={headshot} alt="Shawn Soltesz headshot" width="250" />
+          </div>
         </div>
         <h2>About</h2>
 
         <div className="about">
-          <div className="headshot">
-            <img src={headshot} alt="Shawn Soltesz headshot" width="250" />
-          </div>
           <div className="about-details">
             <h3>My name is Shawn Soltesz</h3>
 
@@ -140,6 +141,66 @@ export function App() {
               </li>
               <li>
                 <i className="fas fa-database"></i>
+              </li>
+            </ul>
+
+            <h4>Technical Community</h4>
+            <ul>
+              <li className="meetups">
+                <a href="https://www.meetup.com/suncoast-developers-guild/">
+                  Suncoast Developers Guild Open Code Meetup
+                </a>
+              </li>
+              <li className="meetups">
+                <a href="https://www.meetup.com/SEO-Training-Tampa/">
+                  Tampa SEO &amp; Internet Marketing Meetup
+                </a>
+              </li>
+              <li className="meetups">
+                <a href="https://www.meetup.com/Women-Who-Code-Tampa/">
+                  Women Who Code Tampa Meetup
+                </a>
+              </li>
+              <li className="meetups">
+                <a href="https://www.meetup.com/St-Pete-NET-Meetup/">
+                  St. Pete.NET Meetup
+                </a>
+              </li>
+              <li className="meetups">
+                <a href="https://www.meetup.com/Tech4Good-Tampa/">
+                  Tech4Good Tampa Meetup
+                </a>
+              </li>
+              <li className="meetups">
+                <a href="https://www.meetup.com/BaltimoreTechiesforGood/">
+                  Baltimore Techies for Good / TechSoup Group
+                </a>
+              </li>
+              <li className="meetups">
+                <a href="https://www.meetup.com/Tampa-Bay-PostgreSQL-Users-Group/">
+                  Tampa Bay PostgreSQL Users Group Meetup
+                </a>
+              </li>
+            </ul>
+
+            <h4>Community Service</h4>
+            <ul>
+              <li className="meetups">
+                <em>St. Pete ReCANvers - Reclaim. Reincarnate. ReCANver</em>:
+                This is a personal project created to collect aluminum cans from
+                the community and recycle them for money to be donated to local
+                St Petersburg, FL non-profit &nbsp;
+                <a href="https://www.purposethroughpassion.com/">
+                  Purpose Through Passion
+                </a>
+                .
+              </li>
+              <li className="meetups">
+                <em>Technical Solutions/Web Development Day</em> to
+                benefit&nbsp;
+                <a href="https://www.meetup.com/BaltimoreTechiesforGood/">
+                  Baltimore Techies for Good / TechSoup Group
+                </a>
               </li>
             </ul>
           </div>
