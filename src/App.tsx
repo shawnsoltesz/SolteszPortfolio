@@ -270,25 +270,30 @@ export function App() {
             <h3>Community Service</h3>
 
             <p className="community-service">
-              <em>St. Pete ReCANvers - Reclaim. Reincarnate. ReCANver</em>
-              &nbsp;- Details: A personal project created to collect aluminum
-              cans from the community and recycle them for money to be donated
-              to local St Petersburg, FL non-profit &nbsp;
+              <strong>
+                <em>St. Pete ReCANvers - Reclaim. Reincarnate. ReCANver</em>
+              </strong>
+              <br />A personal project created to collect aluminum cans from the
+              community and recycle them for money to be donated to local St
+              Petersburg, FL non-profit &nbsp;
               <a href="https://www.purposethroughpassion.com/" target="_blank">
                 Purpose Through Passion
               </a>
               . In 9 months, over 300 pounds of cans have been recycled with
-              proceeds donated to benefit their recovering clients.
+              proceeds donated to benefit their clients in recovery.
             </p>
             <p className="community-service">
-              <em>Technical Solutions/Web Development Day</em> to benefit&nbsp;
+              <strong>
+                <em>Technical Solutions&nbsp;/&nbsp;Web Development Day</em>
+              </strong>
+              <br />
+              Hackathon to benefit&nbsp;
               <a
                 href="https://www.meetup.com/BaltimoreTechiesforGood/"
                 target="_blank"
               >
-                Baltimore Techies for Good / TechSoup Group
+                Baltimore Techies for Good&nbsp;/&nbsp;TechSoup Group
               </a>
-              &nbsp;- Details: TBD
             </p>
 
             <button className="button" type="submit">
@@ -305,6 +310,36 @@ export function App() {
 
         <div id="portfolio" className="portfolio">
           <h2>Portfolio</h2>
+          <h3>
+            <a href="https://stpete.pet" target="blank">
+              StPete.pet
+            </a>
+          </h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry&apos;s standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book. It has survived
+            not only five centuries, but also the leap into electronic
+            typesetting, remaining essentially unchanged. It was popularised in
+            the 1960s with the release of Letraset sheets containing Lorem Ipsum
+            passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+
+          <h3>StPete.pet</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry&apos;s standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book. It has survived
+            not only five centuries, but also the leap into electronic
+            typesetting, remaining essentially unchanged. It was popularised in
+            the 1960s with the release of Letraset sheets containing Lorem Ipsum
+            passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+
           <h3>StPete.pet</h3>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting

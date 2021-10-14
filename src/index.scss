@@ -253,6 +253,16 @@ header {
   background-color: rgb(235, 219, 149);
   padding: 1rem;
   margin-bottom: 1rem;
+  a {
+    color: inherit;
+  }
+  a:hover {
+    color: rgb(204, 73, 50);
+  }
+
+  a:active {
+    color: rgb(44, 145, 176);
+  }
 }
 
 .contact {
