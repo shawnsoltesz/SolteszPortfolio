@@ -23,22 +23,26 @@ export function App() {
 
           <ul className="nav-right">
             <li>
-              <i className="nav-icon fas fa-home"></i>&nbsp;Home
+              <i className="nav-icon fas fa-home"></i>&nbsp;
+              <a href="#home">Home</a>
             </li>
             <li>
-              <i className="nav-icon fas fa-info-circle"></i>&nbsp;About
+              <i className="nav-icon fas fa-info-circle"></i>&nbsp;
+              <a href="#about">About</a>
             </li>
             <li>
-              <i className="nav-icon fas fa-briefcase"></i>&nbsp;Portfolio
+              <i className="nav-icon fas fa-briefcase"></i>&nbsp;
+              <a href="#portfolio">Portfolio</a>
             </li>
             <li>
-              <i className="nav-icon fas fa-mail-bulk"></i>&nbsp;Contact
+              <i className="nav-icon fas fa-mail-bulk"></i>
+              <a href="#contact">&nbsp;Contact</a>
             </li>
           </ul>
         </div>
       </header>
       <main>
-        <div className="home">
+        <div id="home" className="home">
           <div className="home-header">
             <h2 className="warning">
               <i className="fas fa-tools"></i>&nbsp;NOTE: This site is under
@@ -103,7 +107,7 @@ export function App() {
           </ul>
         </div>
 
-        <div className="about">
+        <div id="about" className="about">
           <div className="about-details">
             <h2>About</h2>
             <h3>Summary</h3>
@@ -155,7 +159,7 @@ export function App() {
                   <strong>Projects:</strong> Aha!, Azure ADO, Jira, Smartsheets
                 </li>
                 <li className="technical-skills">
-                  <strong>REST API:</strong> Mapbox, Cloudinary
+                  <strong>REST API:</strong> Cloudinary, Geocode, Mapbox
                 </li>
                 <li className="technical-skills">
                   <strong>Software:</strong> Figma, MS Office, GSuite, Shopify
@@ -299,7 +303,7 @@ export function App() {
           </div>
         </div>
 
-        <div className="portfolio">
+        <div id="portfolio" className="portfolio">
           <h2>Portfolio</h2>
           <h3>StPete.pet</h3>
           <p>
@@ -315,7 +319,7 @@ export function App() {
           </p>
         </div>
 
-        <div className="contact">
+        <div id="contact" className="contact">
           <h2>Contact</h2>
           <ul>
             <li>
