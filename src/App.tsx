@@ -323,16 +323,28 @@ export function App() {
           <h2>Contact</h2>
           <ul>
             <li>
-              <i className="github fab fa-github-square"></i>
+              <a href="https://github.com/shawnsoltesz" target="_blank">
+                <i className="github fab fa-github-square"></i>
+              </a>
             </li>
             <li>
-              <i className="linkedin fab fa-linkedin"></i>
+              {' '}
+              <a
+                href="https://www.linkedin.com/in/shawn-soltesz/"
+                target="_blank"
+              >
+                <i className="linkedin fab fa-linkedin"></i>
+              </a>
             </li>
             <li>
-              <i className="fas fa-envelope"></i>
+              <a href="mailto:shawnjsoltesz@gmail.com">
+                <i className="fas fa-envelope"></i>
+              </a>
             </li>
             <li>
-              <i className="phone fas fa-phone-alt"></i>
+              <a href="tel:410-802-6550">
+                <i className="phone fas fa-phone-alt"></i>
+              </a>
             </li>
           </ul>
         </div>
