@@ -37,11 +37,11 @@ export function App() {
         </div>
       </header>
       <main>
-        <h1>Hello and Welcome</h1>
         <div className="home">
-          <h2>Shawn Soltesz</h2>
-          <h3>Full Stack Web Developer</h3>
-
+          <div className="home-header">
+            <h1>Shawn Soltesz</h1>
+            <h2>Full Stack Web Developer</h2>
+          </div>
           <div className="headshot">
             <img src={headshot} alt="Shawn Soltesz headshot" width="250" />
           </div>
@@ -97,13 +97,12 @@ export function App() {
             </li>
           </ul>
         </div>
-        <h2>About</h2>
 
         <div className="about">
           <div className="about-details">
-            <h3>My name is Shawn Soltesz</h3>
-
-            <h4>Curious, Entrepreneurial and Optimistic</h4>
+            <h2>About</h2>
+            <h3>Summary</h3>
+            {/* <p>Curious, Entrepreneurial and Optimistic</p> */}
             <p>
               After spending 15 years in various operational and implementation
               roles within Ed Tech, Shawn felt unsure of his exact career
@@ -123,68 +122,116 @@ export function App() {
               support this approach through the SDLC.
             </p>
 
-            <h4>Technical Skills</h4>
-            <ul>
-              <li className="technical-skills">
-                <strong>Languages:</strong> C#, SQL, HTML, CSS, Typescript
-              </li>
-              <li className="technical-skills">
-                <strong>Data:</strong> PostGreSQL, REST APIs, JSON
-              </li>
-              <li className="technical-skills">
-                <strong>DevOps:</strong> AWS, Confluence, Dropbox, GitHub
-              </li>
-              <li className="technical-skills">
-                <strong>Frameworks:</strong> .NET, React with Hooks
-              </li>
-              <li className="technical-skills">
-                <strong>Projects:</strong> Aha!, Azure ADO, Jira, Smartsheets
-              </li>
-              <li className="technical-skills">
-                <strong>Software:</strong> MS Office, GSuite, Shopify{' '}
-              </li>
-            </ul>
+            {/* <h3>Technical</h3> */}
+            <span className="technical">
+              <ul className="skills">
+                <li>
+                  <h3>Technical Skills</h3>
+                </li>
+                <li className="technical-skills">
+                  <strong>Languages:</strong> C#, SQL, HTML, CSS, Typescript
+                </li>
+                <li className="technical-skills">
+                  <strong>Data:</strong> PostGreSQL, REST APIs, JSON
+                </li>
+                <li className="technical-skills">
+                  <strong>DevOps:</strong> AWS, Confluence, Dropbox, GitHub
+                </li>
+                <li className="technical-skills">
+                  <strong>Frameworks:</strong> .NET, React with Hooks
+                </li>
+                <li className="technical-skills">
+                  <strong>Projects:</strong> Aha!, Azure ADO, Jira, Smartsheets
+                </li>
+                <li className="technical-skills">
+                  <strong>Software:</strong> MS Office, GSuite, Shopify
+                </li>
+                <li className="technical-skills">
+                  <strong>REST API:</strong> Mapbox, Cloudinary
+                </li>
+              </ul>
 
-            <h4>Technical Community</h4>
-            <ul>
-              <li className="meetups">
-                <a href="https://www.meetup.com/suncoast-developers-guild/">
-                  Suncoast Developers Guild Open Code Meetup
-                </a>
-              </li>
-              <li className="meetups">
-                <a href="https://www.meetup.com/SEO-Training-Tampa/">
-                  Tampa SEO &amp; Internet Marketing Meetup
-                </a>
-              </li>
-              <li className="meetups">
-                <a href="https://www.meetup.com/Women-Who-Code-Tampa/">
-                  Women Who Code Tampa Meetup
-                </a>
-              </li>
-              <li className="meetups">
-                <a href="https://www.meetup.com/St-Pete-NET-Meetup/">
-                  St. Pete.NET Meetup
-                </a>
-              </li>
-              <li className="meetups">
-                <a href="https://www.meetup.com/Tech4Good-Tampa/">
-                  Tech4Good Tampa Meetup
-                </a>
-              </li>
-              <li className="meetups">
-                <a href="https://www.meetup.com/BaltimoreTechiesforGood/">
-                  Baltimore Techies for Good / TechSoup Group
-                </a>
-              </li>
-              <li className="meetups">
-                <a href="https://www.meetup.com/Tampa-Bay-PostgreSQL-Users-Group/">
-                  Tampa Bay PostgreSQL Users Group Meetup
-                </a>
-              </li>
-            </ul>
+              <ul className="community">
+                <li>
+                  <h3>Technical Community</h3>
+                </li>
+                <li className="meetups">
+                  <a href="https://www.meetup.com/suncoast-developers-guild/">
+                    Suncoast Developers Guild Open Code Meetup
+                  </a>
+                </li>
+                <li className="meetups">
+                  <a href="https://www.meetup.com/SEO-Training-Tampa/">
+                    Tampa SEO &amp; Internet Marketing Meetup
+                  </a>
+                </li>
+                <li className="meetups">
+                  <a href="https://www.meetup.com/Women-Who-Code-Tampa/">
+                    Women Who Code Tampa Meetup
+                  </a>
+                </li>
+                <li className="meetups">
+                  <a href="https://www.meetup.com/St-Pete-NET-Meetup/">
+                    St. Pete.NET Meetup
+                  </a>
+                </li>
+                <li className="meetups">
+                  <a href="https://www.meetup.com/Tech4Good-Tampa/">
+                    Tech4Good Tampa Meetup
+                  </a>
+                </li>
+                <li className="meetups">
+                  <a href="https://www.meetup.com/BaltimoreTechiesforGood/">
+                    Baltimore Techies for Good / TechSoup Group
+                  </a>
+                </li>
+                <li className="meetups">
+                  <a href="https://www.meetup.com/Tampa-Bay-PostgreSQL-Users-Group/">
+                    Tampa Bay PostgreSQL Users Group Meetup
+                  </a>
+                </li>
+              </ul>
+            </span>
 
-            <h4>Community Service</h4>
+            <h3>Experience</h3>
+            <h4 className="experience">
+              Full Stack Web Development
+              Student&nbsp;&nbsp;&#124;&nbsp;&nbsp;Suncoast Developers Guild
+              &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2021
+            </h4>
+
+            <h4 className="experience">
+              Senior Asset Management Analyst &nbsp;&nbsp;&#124;&nbsp;&nbsp;
+              Pearson &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2020 - 2021
+            </h4>
+
+            <h4 className="experience">
+              Course Iteration Manager &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2U
+              &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2018 - 2020
+            </h4>
+
+            <h4 className="experience">
+              Course Implementation Specialist &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2U
+              &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2016 - 2018
+            </h4>
+
+            <h4 className="experience">
+              Founder and Proprietor &nbsp;&nbsp;&#124;&nbsp;&nbsp; Your Pet at
+              Home &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2014 - 2016
+            </h4>
+
+            <h4 className="experience">
+              Senior Manager of Curriculum Resources
+              &nbsp;&nbsp;&#124;&nbsp;&nbsp; Pearson
+              &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2010 - 2014
+            </h4>
+
+            <h4 className="experience">
+              E-Commerce Manager &nbsp;&nbsp;&#124;&nbsp;&nbsp; Smarterville,
+              Inc &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2006 - 2010
+            </h4>
+
+            <h3>Community Service</h3>
             <ul>
               <li className="meetups">
                 <em>St. Pete ReCANvers - Reclaim. Reincarnate. ReCANver</em>:
@@ -205,10 +252,16 @@ export function App() {
                 </a>
               </li>
             </ul>
+
+            <button className="button" type="submit">
+              <i className=" fas fa-download"></i>
+              &nbsp;Download Resume
+            </button>
           </div>
         </div>
-        <h2>Portfolio</h2>
+
         <div className="portfolio">
+          <h2>Portfolio</h2>
           <h3>StPete.pet</h3>
           <p>
             StPete.pet celebrates the inclusiveness our city possesses through
@@ -222,8 +275,8 @@ export function App() {
           </p>
         </div>
         <h2>Contact</h2>
-        <div>
-          <ul className="contact">
+        <div className="contact">
+          <ul>
             <li>
               <i className="fab fa-github-square"></i>
             </li>
@@ -234,7 +287,7 @@ export function App() {
               <i className="fas fa-envelope"></i>
             </li>
             <li>
-              <i className="fas fa-phone-alt"></i>
+              <i className="phone fas fa-phone-alt"></i>
             </li>
           </ul>
         </div>
