@@ -79,7 +79,7 @@ header {
 }
 
 .nav-icon {
-  color: rgb(42, 165, 159);
+  color: rgb(44, 145, 176);
 }
 
 .home {
@@ -105,16 +105,27 @@ header {
       padding-right: 1.5rem;
       border-radius: 50%;
       display: flex;
-      background-color: rgb(42, 165, 159);
-      border: rgb(42, 165, 159);
+      background-color: rgb(44, 145, 176);
+      border: rgb(70, 169, 199);
       border-style: solid;
       border-width: 2px;
     }
   }
 }
 
+.technology-logos {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 36px;
+  color: rgb(70, 169, 199);
+  flex-wrap: wrap;
+}
+
 .about {
-  background-color: rgb(204, 150, 50);
+  background-color: rgb(44, 145, 176);
   padding: 1rem 1rem;
   margin-bottom: 1rem;
   display: flex;
@@ -198,17 +209,6 @@ header {
   }
 }
 
-.technology-logos {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  display: flex;
-  justify-content: space-between;
-  font-size: 36px;
-  color: rgb(109, 226, 220);
-  flex-wrap: wrap;
-}
-
 .portfolio {
   background-color: rgb(235, 219, 149);
   padding: 0.5rem 0.75rem;
@@ -244,7 +244,7 @@ footer {
   justify-content: space-around;
   margin-top: 5px;
   font-size: 12px;
-  background-color: rgb(157, 221, 240);
+  background-color: rgb(70, 169, 199);
   position: relative;
   width: 100%;
   bottom: 0;
