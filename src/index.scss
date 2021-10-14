@@ -37,6 +37,12 @@ header {
 
 // Portfolio CSS
 
+.warning {
+  background-color: yellow;
+  color: rgb(85, 77, 61);
+  padding: 1rem;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;

@@ -40,6 +40,10 @@ export function App() {
       <main>
         <div className="home">
           <div className="home-header">
+            <h2 className="warning">
+              <i className="fas fa-tools"></i>&nbsp;NOTE: This site is under
+              construction. Check back soon!
+            </h2>
             <h1>Shawn Soltesz</h1>
             <h2>Full Stack Web Developer</h2>
           </div>
@@ -288,8 +292,8 @@ export function App() {
                 href="https://docs.google.com/document/d/1Q0ViUKuc30iZfFhvI1lbVgyZfo_tfEDQ/edit?usp=sharing&ouid=102913186379479915182&rtpof=true&sd=true"
                 target="_blank"
               >
-                <i className=" fas fa-download"></i>
-                &nbsp;Download Resume
+                <i className="fas fa-file"></i>
+                &nbsp;View Resume
               </a>
             </button>
           </div>
