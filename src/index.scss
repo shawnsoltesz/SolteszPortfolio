@@ -18,10 +18,6 @@ body {
 main {
   margin: 0;
   min-height: 100vh;
-  color: var(--page-text);
-  font-family: var(--body-font);
-  margin-left: 10px;
-  margin-bottom: 50px;
 }
 
 ul {
@@ -78,25 +74,93 @@ header {
   }
 }
 
-.heart {
-  color: red;
+.home {
+  background-color: rgb(204, 73, 50);
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
 }
 
-.paw {
-  color: brown;
-  transform: rotate(35deg);
+.about {
+  background-color: rgb(204, 150, 50);
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.headshot img {
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+}
+
+.about-details {
+  margin: 1rem 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: rgb(87, 65, 23);
+  color: white;
+  border-radius: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.technical-skills {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.technology-logos {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 36px;
+  color: rgb(162, 151, 151);
+  flex-wrap: wrap;
+
+  :hover {
+    color: rgb(42, 165, 159);
+  }
+}
+
+.portfolio {
+  background-color: rgb(235, 219, 149);
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.contact {
+  background-color: rgb(59, 60, 19);
+  padding: 0.75rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: 36px;
+  color: rgb(252, 249, 249);
+  flex-wrap: wrap;
+
+  :hover {
+    color: rgb(42, 165, 159);
+  }
 }
 
 footer {
   display: flex;
   justify-content: space-around;
   margin-top: 5px;
-  // font-family: var(--h2-font);
-  font-size: 11px;
+
+  font-size: 12px;
   background-color: rgb(157, 221, 240);
   position: relative;
   width: 100%;
   bottom: 0;
   height: 45px;
   align-items: center;
+
+  .heart {
+    color: red;
+  }
 }
