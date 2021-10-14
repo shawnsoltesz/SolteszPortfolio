@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 // import { Link } from 'react-router-dom'
 
@@ -129,9 +130,6 @@ export function App() {
                   <h3>Technical Skills</h3>
                 </li>
                 <li className="technical-skills">
-                  <strong>Languages:</strong> C#, SQL, HTML, CSS, Typescript
-                </li>
-                <li className="technical-skills">
                   <strong>Data:</strong> PostGreSQL, REST APIs, JSON
                 </li>
                 <li className="technical-skills">
@@ -141,13 +139,16 @@ export function App() {
                   <strong>Frameworks:</strong> .NET, React with Hooks
                 </li>
                 <li className="technical-skills">
+                  <strong>Languages:</strong> C#, SQL, HTML, CSS, Typescript
+                </li>
+                <li className="technical-skills">
                   <strong>Projects:</strong> Aha!, Azure ADO, Jira, Smartsheets
                 </li>
                 <li className="technical-skills">
-                  <strong>Software:</strong> MS Office, GSuite, Shopify
+                  <strong>REST API:</strong> Mapbox, Cloudinary
                 </li>
                 <li className="technical-skills">
-                  <strong>REST API:</strong> Mapbox, Cloudinary
+                  <strong>Software:</strong> Figma, MS Office, GSuite, Shopify
                 </li>
               </ul>
 
@@ -156,38 +157,59 @@ export function App() {
                   <h3>Technical Community</h3>
                 </li>
                 <li className="meetups">
-                  <a href="https://www.meetup.com/suncoast-developers-guild/">
-                    Suncoast Developers Guild Open Code Meetup
-                  </a>
-                </li>
-                <li className="meetups">
-                  <a href="https://www.meetup.com/SEO-Training-Tampa/">
-                    Tampa SEO &amp; Internet Marketing Meetup
-                  </a>
-                </li>
-                <li className="meetups">
-                  <a href="https://www.meetup.com/Women-Who-Code-Tampa/">
-                    Women Who Code Tampa Meetup
-                  </a>
-                </li>
-                <li className="meetups">
-                  <a href="https://www.meetup.com/St-Pete-NET-Meetup/">
-                    St. Pete.NET Meetup
-                  </a>
-                </li>
-                <li className="meetups">
-                  <a href="https://www.meetup.com/Tech4Good-Tampa/">
-                    Tech4Good Tampa Meetup
-                  </a>
-                </li>
-                <li className="meetups">
-                  <a href="https://www.meetup.com/BaltimoreTechiesforGood/">
+                  <a
+                    href="https://www.meetup.com/BaltimoreTechiesforGood/"
+                    target="_blank"
+                  >
                     Baltimore Techies for Good / TechSoup Group
                   </a>
                 </li>
                 <li className="meetups">
-                  <a href="https://www.meetup.com/Tampa-Bay-PostgreSQL-Users-Group/">
+                  <a
+                    href="https://www.meetup.com/St-Pete-NET-Meetup/"
+                    target="_blank"
+                  >
+                    St. Pete.NET Meetup
+                  </a>
+                </li>
+                <li className="meetups">
+                  <a
+                    href="https://www.meetup.com/suncoast-developers-guild/"
+                    target="_blank"
+                  >
+                    Suncoast Developers Guild Open Code Meetup
+                  </a>
+                </li>
+                <li className="meetups">
+                  <a
+                    href="https://www.meetup.com/Tampa-Bay-PostgreSQL-Users-Group/"
+                    target="_blank"
+                  >
                     Tampa Bay PostgreSQL Users Group Meetup
+                  </a>
+                </li>
+                <li className="meetups">
+                  <a
+                    href="https://www.meetup.com/SEO-Training-Tampa/"
+                    target="_blank"
+                  >
+                    Tampa SEO &amp; Internet Marketing Meetup
+                  </a>
+                </li>
+                <li className="meetups">
+                  <a
+                    href="https://www.meetup.com/Tech4Good-Tampa/"
+                    target="_blank"
+                  >
+                    Tech4Good Tampa Meetup
+                  </a>
+                </li>
+                <li className="meetups">
+                  <a
+                    href="https://www.meetup.com/Women-Who-Code-Tampa/"
+                    target="_blank"
+                  >
+                    Women Who Code Tampa Meetup
                   </a>
                 </li>
               </ul>
@@ -232,30 +254,37 @@ export function App() {
             </h4>
 
             <h3>Community Service</h3>
-            <ul>
-              <li className="meetups">
-                <em>St. Pete ReCANvers - Reclaim. Reincarnate. ReCANver</em>:
-                This is a personal project created to collect aluminum cans from
-                the community and recycle them for money to be donated to local
-                St Petersburg, FL non-profit &nbsp;
-                <a href="https://www.purposethroughpassion.com/">
-                  Purpose Through Passion
-                </a>
-                . In 9 months, 300 pounds of cans have been recycled and $75
-                donated to benefit their clients.
-              </li>
-              <li className="meetups">
-                <em>Technical Solutions/Web Development Day</em> to
-                benefit&nbsp;
-                <a href="https://www.meetup.com/BaltimoreTechiesforGood/">
-                  Baltimore Techies for Good / TechSoup Group
-                </a>
-              </li>
-            </ul>
+
+            <p className="community-service">
+              <em>St. Pete ReCANvers - Reclaim. Reincarnate. ReCANver</em>
+              &nbsp;- Details: A personal project created to collect aluminum
+              cans from the community and recycle them for money to be donated
+              to local St Petersburg, FL non-profit &nbsp;
+              <a href="https://www.purposethroughpassion.com/" target="_blank">
+                Purpose Through Passion
+              </a>
+              . In 9 months, over 300 pounds of cans have been recycled with
+              proceeds donated to benefit their recovering clients.
+            </p>
+            <p className="community-service">
+              <em>Technical Solutions/Web Development Day</em> to benefit&nbsp;
+              <a
+                href="https://www.meetup.com/BaltimoreTechiesforGood/"
+                target="_blank"
+              >
+                Baltimore Techies for Good / TechSoup Group
+              </a>
+              &nbsp;- Details: TBD
+            </p>
 
             <button className="button" type="submit">
-              <i className=" fas fa-download"></i>
-              &nbsp;Download Resume
+              <a
+                href="https://docs.google.com/document/d/1Q0ViUKuc30iZfFhvI1lbVgyZfo_tfEDQ/edit?usp=sharing&ouid=102913186379479915182&rtpof=true&sd=true"
+                target="_blank"
+              >
+                <i className=" fas fa-download"></i>
+                &nbsp;Download Resume
+              </a>
             </button>
           </div>
         </div>

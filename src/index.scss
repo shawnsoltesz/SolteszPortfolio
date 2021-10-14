@@ -86,7 +86,6 @@ header {
   background-color: rgb(204, 73, 50);
   padding: 0.5rem 0.75rem;
   margin-bottom: 1rem;
-  margin-top: 0.5rem;
   color: rgb(252, 249, 249);
 
   h1,
@@ -131,11 +130,24 @@ header {
   display: flex;
   align-items: center;
 
+  .about-details {
+    margin: 1rem 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: rgb(87, 65, 23);
+    color: white;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+  }
+
   h3 {
     color: rgb(177, 216, 211);
     background-color: rgb(204, 73, 50);
     border-radius: 15px;
     padding: 0.5rem;
+    display: flex;
+    align-self: center;
+    margin-top: 1px;
   }
 
   h4 {
@@ -150,6 +162,7 @@ header {
   .technical {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 0.5rem;
 
     .skills {
       margin-left: 0.5rem;
@@ -164,7 +177,20 @@ header {
     }
   }
   .experience {
-    margin-left: 1rem;
+    margin-left: 0.75rem;
+  }
+
+  .community-service {
+    a {
+      color: inherit;
+      color: rgb(220, 234, 235);
+    }
+    a:hover {
+      color: rgb(204, 73, 50);
+    }
+    a:active {
+      color: rgb(44, 145, 176);
+    }
   }
 
   button {
@@ -173,31 +199,30 @@ header {
     font-size: 16px;
     border-radius: 10px;
     width: auto;
-    background-color: salmon;
+    background-color: rgb(220, 234, 235);
     padding: 0.5rem;
 
-    .button:hover {
-      background-color: rgb(42, 165, 159);
+    a {
+      text-decoration: none;
+      color: inherit;
     }
+  }
+  .button:hover {
+    background-color: rgb(204, 73, 50);
+  }
+
+  button:active {
+    background-color: rgb(44, 145, 176);
+    color: rgb(220, 234, 235);
   }
 }
 
-.about-details {
-  margin: 1rem 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  background-color: rgb(87, 65, 23);
-  color: white;
-  border-radius: 20px;
-  padding: 2rem;
-}
 .technical-skills,
 .meetups {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 
   a {
-    // text-decoration: none;
     color: inherit;
     color: rgb(220, 234, 235);
   }
@@ -205,13 +230,14 @@ header {
     color: rgb(204, 73, 50);
   }
   a:active {
-    color: rgb(128, 48, 34);
+    // color: rgb(128, 48, 34);
+    color: rgb(44, 145, 176);
   }
 }
 
 .portfolio {
   background-color: rgb(235, 219, 149);
-  padding: 0.5rem 0.75rem;
+  padding: 1rem;
   margin-bottom: 1rem;
 }
 
