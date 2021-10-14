@@ -22,16 +22,16 @@ export function App() {
 
           <ul className="nav-right">
             <li>
-              <i className="breadcrumb-icon fas fa-home"></i>&nbsp;Home
+              <i className="nav-icon fas fa-home"></i>&nbsp;Home
             </li>
             <li>
-              <i className="breadcrumb-icon fas fa-info-circle"></i>&nbsp;About
+              <i className="nav-icon fas fa-info-circle"></i>&nbsp;About
             </li>
             <li>
-              <i className="fas fa-briefcase"></i>&nbsp;Portfolio
+              <i className="nav-icon fas fa-briefcase"></i>&nbsp;Portfolio
             </li>
             <li>
-              <i className="fas fa-mail-bulk"></i>&nbsp;Contact
+              <i className="nav-icon fas fa-mail-bulk"></i>&nbsp;Contact
             </li>
           </ul>
         </div>
@@ -39,11 +39,63 @@ export function App() {
       <main>
         <h1>Hello and Welcome</h1>
         <div className="home">
-          <h2>Insert</h2>
+          <h2>Shawn Soltesz</h2>
+          <h3>Full Stack Web Developer</h3>
 
           <div className="headshot">
             <img src={headshot} alt="Shawn Soltesz headshot" width="250" />
           </div>
+
+          <ul className="technology-logos">
+            <li>
+              <i className="fab fa-react"></i>
+            </li>
+            <li>
+              <i className="fab fa-html5"></i>
+            </li>
+            <li>
+              <i className="fab fa-sass"></i>
+            </li>
+            <li>
+              <i className="fab fa-js-square"></i>
+            </li>
+            <li>
+              <i className="fab fa-aws"></i>
+            </li>
+            <li>
+              <i className="fab fa-atlassian"></i>
+            </li>
+            <li>
+              <i className="fab fa-dropbox"></i>
+            </li>
+            <li>
+              <i className="fab fa-github-square"></i>
+            </li>
+            <li>
+              <i className="fab fa-microsoft"></i>
+            </li>
+            <li>
+              <i className="fab fa-apple"></i>
+            </li>
+            <li>
+              <i className="fab fa-google-drive"></i>
+            </li>
+            <li>
+              <i className="fab fa-drupal"></i>
+            </li>
+            <li>
+              <i className="fab fa-css3-alt"></i>
+            </li>
+            <li>
+              <i className="fab fa-npm"></i>
+            </li>
+            <li>
+              <i className="fab fa-figma"></i>
+            </li>
+            <li>
+              <i className="fas fa-database"></i>
+            </li>
+          </ul>
         </div>
         <h2>About</h2>
 
@@ -90,57 +142,6 @@ export function App() {
               </li>
               <li className="technical-skills">
                 <strong>Software:</strong> MS Office, GSuite, Shopify{' '}
-              </li>
-            </ul>
-
-            <ul className="technology-logos">
-              <li>
-                <i className="fab fa-react"></i>
-              </li>
-              <li>
-                <i className="fab fa-html5"></i>
-              </li>
-              <li>
-                <i className="fab fa-sass"></i>
-              </li>
-              <li>
-                <i className="fab fa-js-square"></i>
-              </li>
-              <li>
-                <i className="fab fa-aws"></i>
-              </li>
-              <li>
-                <i className="fab fa-atlassian"></i>
-              </li>
-              <li>
-                <i className="fab fa-dropbox"></i>
-              </li>
-              <li>
-                <i className="fab fa-github-square"></i>
-              </li>
-              <li>
-                <i className="fab fa-microsoft"></i>
-              </li>
-              <li>
-                <i className="fab fa-apple"></i>
-              </li>
-              <li>
-                <i className="fab fa-google-drive"></i>
-              </li>
-              <li>
-                <i className="fab fa-drupal"></i>
-              </li>
-              <li>
-                <i className="fab fa-css3-alt"></i>
-              </li>
-              <li>
-                <i className="fab fa-npm"></i>
-              </li>
-              <li>
-                <i className="fab fa-figma"></i>
-              </li>
-              <li>
-                <i className="fas fa-database"></i>
               </li>
             </ul>
 
@@ -193,7 +194,8 @@ export function App() {
                 <a href="https://www.purposethroughpassion.com/">
                   Purpose Through Passion
                 </a>
-                .
+                . In 9 months, 300 pounds of cans have been recycled and $75
+                donated to benefit their clients.
               </li>
               <li className="meetups">
                 <em>Technical Solutions/Web Development Day</em> to

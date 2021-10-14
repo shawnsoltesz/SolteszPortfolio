@@ -20,7 +20,7 @@ body {
 main {
   margin: 0;
   min-height: 100vh;
-  color: rgb(40, 63, 62);
+  color: rgb(87, 65, 23);
 }
 
 ul {
@@ -45,6 +45,7 @@ header {
   align-items: center;
   border-bottom: 0.5px solid rgb(225, 225, 225);
   background-color: rgb(255, 255, 255);
+  color: rgb(87, 65, 23);
 
   ul {
     display: flex;
@@ -77,6 +78,10 @@ header {
   }
 }
 
+.nav-icon {
+  color: rgb(42, 165, 159);
+}
+
 .home {
   background-color: rgb(204, 73, 50);
   padding: 0.5rem 0.75rem;
@@ -106,6 +111,10 @@ header {
   padding-right: 1.5rem;
   border-radius: 50%;
   display: flex;
+  background-color: rgb(42, 165, 159);
+  border: rgb(42, 165, 159);
+  border-style: solid;
+  border-width: 2px;
 }
 
 .about-details {
@@ -142,12 +151,8 @@ header {
   display: flex;
   justify-content: space-between;
   font-size: 36px;
-  color: rgb(162, 151, 151);
+  color: rgb(109, 226, 220);
   flex-wrap: wrap;
-
-  :hover {
-    color: rgb(42, 165, 159);
-  }
 }
 
 .portfolio {
