@@ -44,42 +44,69 @@ export function App() {
       <main>
         <div id="home" className="home">
           <div className="home-header">
-            <h2 className="warning">
+            {/* <ul className="technology-logos">
+              <li>
+                <i className="fab fa-react"></i>
+              </li>
+              <li>
+                <i className="fab fa-html5"></i>
+              </li>
+              <li>
+                <i className="fab fa-sass"></i>
+              </li>
+              <li>
+                <i className="fab fa-js-square"></i>
+              </li>
+              <li>
+                <i className="fab fa-aws"></i>
+              </li>
+              <li>
+                <i className="fab fa-atlassian"></i>
+              </li>
+              <li>
+                <i className="fab fa-dropbox"></i>
+              </li>
+              <li>
+                <i className="fab fa-github-square"></i>
+              </li>
+            </ul> */}
+            {/* <h2 className="warning">
               <i className="fas fa-tools"></i>&nbsp;NOTE: This site is under
               construction. Check back soon!
-            </h2>
-            <h1>Shawn Soltesz</h1>
-            <h2>Full Stack Web Developer</h2>
-          </div>
-          <div className="headshot">
-            <img src={headshot} alt="Shawn Soltesz headshot" width="250" />
-          </div>
+            </h2> */}
+            <div className="home-body">
+              <div className="home-body-left">
+                <ul>
+                  <li>
+                    <img
+                      className="headshot"
+                      src={headshot}
+                      alt="Shawn Soltesz headshot"
+                      width="250"
+                    />
+                  </li>
+                </ul>
+              </div>
 
-          <ul className="technology-logos">
-            <li>
-              <i className="fab fa-react"></i>
-            </li>
-            <li>
-              <i className="fab fa-html5"></i>
-            </li>
-            <li>
-              <i className="fab fa-sass"></i>
-            </li>
-            <li>
-              <i className="fab fa-js-square"></i>
-            </li>
-            <li>
-              <i className="fab fa-aws"></i>
-            </li>
-            <li>
-              <i className="fab fa-atlassian"></i>
-            </li>
-            <li>
-              <i className="fab fa-dropbox"></i>
-            </li>
-            <li>
-              <i className="fab fa-github-square"></i>
-            </li>
+              <div className="home-body-right">
+                <ul className="header">
+                  <li>
+                    <h1>Shawn Soltesz</h1>
+                  </li>
+                  <li>
+                    <h2>Full Stack Web Developer</h2>
+                  </li>
+                </ul>
+                <ul className="list">
+                  <li>Curious</li>
+                  <li>Entrepreneurial&nbsp;&nbsp;Spirit</li>
+                  <li>Optimistic</li>
+                  <li>Team Collaborator ...</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* <ul className="technology-logos">
             <li>
               <i className="fab fa-microsoft"></i>
             </li>
@@ -104,7 +131,7 @@ export function App() {
             <li>
               <i className="fas fa-database"></i>
             </li>
-          </ul>
+          </ul> */}
         </div>
 
         <div id="about" className="about">
@@ -229,7 +256,7 @@ export function App() {
               </ul>
             </span>
 
-            <h3>Experience</h3>
+            {/* <h3>Work History</h3>
             <h4 className="experience">
               Full Stack Web Development
               Student&nbsp;&nbsp;&#124;&nbsp;&nbsp;Suncoast Developers Guild
@@ -265,7 +292,7 @@ export function App() {
             <h4 className="experience">
               E-Commerce Manager &nbsp;&nbsp;&#124;&nbsp;&nbsp; Smarterville,
               Inc &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2006 - 2010
-            </h4>
+            </h4> */}
 
             <h3>Community Service</h3>
 
