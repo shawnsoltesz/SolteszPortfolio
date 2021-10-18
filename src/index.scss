@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Source+Code+Pro:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Special+Elite&display=swap');
+
 //General project CSS
 
 :root {
@@ -115,19 +116,18 @@ header {
     justify-content: space-evenly;
   }
 
-  h2,
-  .home-body-left li,
-  .home-body-right li {
+  .home-body-left li {
     display: flex;
     justify-content: center;
+    align-content: center;
   }
 
   .headshot {
     display: flex;
     justify-content: center;
     border-radius: 50px;
-    margin-top: 10rem;
-    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
     background-color: rgba(87, 65, 23, 0.687);
     border: rgb(70, 169, 199);
@@ -135,20 +135,28 @@ header {
     border-width: 2px;
   }
 
-  ul.header li {
-    display: flex;
-    align-content: center;
-    margin-top: 1rem;
+  .home-body-right {
+    margin-top: 2rem;
+
+    li {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+  }
+
+  ul.home-header li {
     font-family: 'Special Elite', cursive;
   }
 
-  ul.list li {
+  ul.home-list li {
     display: flex;
     justify-content: start;
+    align-content: space-between;
     font-size: 2rem;
     color: rgb(31, 30, 30);
     font-size: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-family: 'Homemade Apple', cursive;
   }
 }
@@ -281,6 +289,7 @@ header {
   background-color: rgb(235, 219, 149);
   padding: 1rem;
   margin-bottom: 1rem;
+
   a {
     color: inherit;
   }
@@ -290,6 +299,24 @@ header {
 
   a:active {
     color: rgb(44, 145, 176);
+  }
+
+  ul.listing-details {
+    display: flex;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+    p {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+
+    img {
+      border: rgb(252, 122, 0);
+      border-style: solid;
+      border-width: 2px;
+      // border-radius: 10px;
+    }
   }
 }
 
