@@ -4,6 +4,9 @@ import React from 'react'
 
 import logo from './images/soltesz_logo.svg'
 import headshot from './images/shawn_soltesz_headshot.jpg'
+import stpetepet from './images/spp_screenshot.png'
+import colorpicker from './images/color_picker_screenshot.png'
+import roshambo from './images/roshambo_screenshot.png'
 
 export function App() {
   return (
@@ -89,18 +92,18 @@ export function App() {
               </div>
 
               <div className="home-body-right">
-                <ul className="header">
+                <ul className="home-header">
                   <li>
                     <h1>Shawn Soltesz</h1>
                   </li>
                   <li>
-                    <h2>Full Stack Web Developer</h2>
+                    <h2>Web Development Professional</h2>
                   </li>
                 </ul>
-                <ul className="list">
-                  <li>Curious</li>
+                <ul className="home-list">
+                  <li>Curious and Optimistic </li>
                   <li>Entrepreneurial&nbsp;&nbsp;Spirit</li>
-                  <li>Optimistic</li>
+                  <li>Agile Project Management</li>
                   <li>Team Collaborator ...</li>
                 </ul>
               </div>
@@ -342,43 +345,127 @@ export function App() {
               StPete.pet
             </a>
           </h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of
-            type and scrambled it to make a type specimen book. It has survived
-            not only five centuries, but also the leap into electronic
-            typesetting, remaining essentially unchanged. It was popularised in
-            the 1960s with the release of Letraset sheets containing Lorem Ipsum
-            passages, and more recently with desktop publishing software like
-            Aldus PageMaker including versions of Lorem Ipsum.
-          </p>
 
-          <h3>StPete.pet</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of
-            type and scrambled it to make a type specimen book. It has survived
-            not only five centuries, but also the leap into electronic
-            typesetting, remaining essentially unchanged. It was popularised in
-            the 1960s with the release of Letraset sheets containing Lorem Ipsum
-            passages, and more recently with desktop publishing software like
-            Aldus PageMaker including versions of Lorem Ipsum.
-          </p>
+          <ul className="listing-details">
+            <li>
+              <a href="https://stpete.pet" target="blank">
+                <img
+                  src={stpetepet}
+                  alt="StPete dot pet website screenshot"
+                  width="250"
+                />
+              </a>
+            </li>
+            <li>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry&apos;s standard
+                dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book. It
+                has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </p>
+            </li>
+          </ul>
 
-          <h3>StPete.pet</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of
-            type and scrambled it to make a type specimen book. It has survived
-            not only five centuries, but also the leap into electronic
-            typesetting, remaining essentially unchanged. It was popularised in
-            the 1960s with the release of Letraset sheets containing Lorem Ipsum
-            passages, and more recently with desktop publishing software like
-            Aldus PageMaker including versions of Lorem Ipsum.
-          </p>
+          <h3>
+            <a href="https://color-picker-soltesz.netlify.app/" target="blank">
+              Color Picker
+            </a>
+          </h3>
+          <ul className="listing-details">
+            <li>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry&apos;s standard
+                dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book. It
+                has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </p>
+            </li>
+            <li>
+              <a
+                href="https://color-picker-soltesz.netlify.app/"
+                target="blank"
+              >
+                <img
+                  src={colorpicker}
+                  alt="Color Picker website screenshot"
+                  width="250"
+                />
+              </a>
+            </li>
+          </ul>
+
+          <h3>
+            <a href="https://roshambo-ssoltesz.netlify.app" target="blank">
+              Roshambo
+            </a>
+          </h3>
+          <ul className="listing-details">
+            <li>
+              <a href="https://roshambo-ssoltesz.netlify.app" target="blank">
+                <img
+                  src={roshambo}
+                  alt="StPete dot pet website screenshot"
+                  width="250"
+                />
+              </a>
+            </li>
+            <li>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry&apos;s standard
+                dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book. It
+                has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </p>
+            </li>
+          </ul>
+          <h3>
+            <a href="https://roshambo-ssoltesz.netlify.app" target="blank">
+              Octocats
+            </a>
+          </h3>
+          <ul className="listing-details">
+            <li>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry&apos;s standard
+                dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book. It
+                has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </p>
+            </li>
+            <li>
+              <a href="https://stpete.pet" target="blank">
+                <img
+                  src={stpetepet}
+                  alt="StPete dot pet website screenshot"
+                  width="250"
+                />
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div id="contact" className="contact">
