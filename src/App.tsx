@@ -7,6 +7,7 @@ import headshot from './images/shawn_soltesz_headshot.jpg'
 import stpetepet from './images/spp_screenshot.png'
 import colorpicker from './images/color_picker_screenshot.png'
 import roshambo from './images/roshambo_screenshot.png'
+import octodex from './images/octodex_screenshot.png'
 
 export function App() {
   return (
@@ -416,51 +417,67 @@ export function App() {
               <a href="https://roshambo-ssoltesz.netlify.app" target="blank">
                 <img
                   src={roshambo}
-                  alt="StPete dot pet website screenshot"
+                  alt="Roshambo website screenshot"
                   width="250"
                 />
               </a>
             </li>
             <li>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&apos;s standard
-                dummy text ever since the 1500s, when an unknown printer took a
-                galley of type and scrambled it to make a type specimen book. It
-                has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                Roshambo is a project that builds the classic &quot;Rock, Paper,
+                Scissors&quot; game while allowing for practice with UI
+                wireframes, HTML, JavaScript, CSS, working with the DOM as well
+                as conditional logic for determining a winner based on each
+                player&apos;s selection. This version of the game also offers
+                additional options for a player to select, based on a different
+                version of the game -
+                <a
+                  href="https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock"
+                  target="blank"
+                >
+                  <em>Rock, Paper, Scissors, Lizard, Spock</em>
+                </a>
+                , which increased the conditional logic for each player.
               </p>
             </li>
           </ul>
           <h3>
-            <a href="https://roshambo-ssoltesz.netlify.app" target="blank">
-              Octocats
+            <a href="https://octodex-ssoltesz.netlify.app/" target="blank">
+              Octodex
             </a>
           </h3>
           <ul className="listing-details">
             <li>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&apos;s standard
-                dummy text ever since the 1500s, when an unknown printer took a
-                galley of type and scrambled it to make a type specimen book. It
-                has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                This project demonstrated the ability to implement, from
+                scratch, a given website UI design. I rebuilt Github&apos;s
+                gallery named <a href="https://octodex.github.com/">Octodex</a>{' '}
+                that contains variations of their mascot, Octocat. The goal for
+                this project was to practice HTML &amp; CSS, including Flexbox
+                while also leveraging the browser&apos;s Developer Tools.
+              </p>
+
+              <p>
+                As an add-on, to practice with React, a second version of this
+                project,&nbsp;
+                <a
+                  href="https://reactocats-ssoltesz.netlify.app/"
+                  target="blank"
+                >
+                  <em>Reactocats</em>
+                </a>
+                &nbsp;was created. The foundation was repurposing the existing
+                HTML and CSS, but implementing Typescript through the render
+                method of the App component, SCSS, a component for an Octocat.
+                The component uses props to customize each block, rendering the
+                image and related details of each cat image.
               </p>
             </li>
             <li>
-              <a href="https://stpete.pet" target="blank">
+              <a href="https://octodex-ssoltesz.netlify.app/" target="blank">
                 <img
-                  src={stpetepet}
-                  alt="StPete dot pet website screenshot"
+                  src={octodex}
+                  alt="Octodex website screenshot"
                   width="250"
                 />
               </a>
