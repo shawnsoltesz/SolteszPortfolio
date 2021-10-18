@@ -8,6 +8,7 @@ import stpetepet from './images/spp_screenshot.png'
 import colorpicker from './images/color_picker_screenshot.png'
 import roshambo from './images/roshambo_screenshot.png'
 import octodex from './images/octodex_screenshot.png'
+import minesweeper from './images/minesweeper_screenshot.png'
 
 export function App() {
   return (
@@ -74,10 +75,7 @@ export function App() {
                 <i className="fab fa-github-square"></i>
               </li>
             </ul> */}
-            {/* <h2 className="warning">
-              <i className="fas fa-tools"></i>&nbsp;NOTE: This site is under
-              construction. Check back soon!
-            </h2> */}
+
             <div className="home-body">
               <div className="home-body-left">
                 <ul>
@@ -370,6 +368,44 @@ export function App() {
                 publishing software like Aldus PageMaker including versions of
                 Lorem Ipsum.
               </p>
+              <h4>Technology Used:</h4>
+              <p className="technology-icons">
+                <i className="fab fa-react"></i>
+              </p>
+            </li>
+          </ul>
+
+          <h3>
+            <a href="https://mine-sweeper-ssoltesz.netlify.app/" target="blank">
+              Minesweeper
+            </a>
+          </h3>
+          <ul className="listing-details">
+            <li>
+              <p>
+                The Color Picker highlights one of the various ways that we can
+                think of colors on the web. For this project, I highlight HSL
+                &#40;hue, saturation and lightness&#41;, which is one of the
+                color identification methods that CSS supports. But along with
+                the HSL color percentages, the website responds to user events
+                using React. Hooks were used to drive the changes to the user
+                interface, and props rendered the inline styles to dynamically
+                update the appearance of the selected DOM elements.
+              </p>
+              <h4>Technology Used:</h4>
+              <p className="technology-icons"></p>
+            </li>
+            <li>
+              <a
+                href="https://mine-sweeper-ssoltesz.netlify.app/"
+                target="blank"
+              >
+                <img
+                  src={minesweeper}
+                  alt="Minesweeper website screenshot"
+                  width="250"
+                />
+              </a>
             </li>
           </ul>
 
@@ -379,20 +415,6 @@ export function App() {
             </a>
           </h3>
           <ul className="listing-details">
-            <li>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&apos;s standard
-                dummy text ever since the 1500s, when an unknown printer took a
-                galley of type and scrambled it to make a type specimen book. It
-                has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-              </p>
-            </li>
             <li>
               <a
                 href="https://color-picker-soltesz.netlify.app/"
@@ -405,6 +427,20 @@ export function App() {
                 />
               </a>
             </li>
+            <li>
+              <p>
+                The Color Picker highlights one of the various ways that we can
+                think of colors on the web. For this project, I highlight HSL
+                &#40;hue, saturation and lightness&#41;, which is one of the
+                color identification methods that CSS supports. But along with
+                the HSL color percentages, the website responds to user events
+                using React. Hooks were used to drive the changes to the user
+                interface, and props rendered the inline styles to dynamically
+                update the appearance of the selected DOM elements.
+              </p>
+              <h4>Technology Used:</h4>
+              <p className="technology-icons"></p>
+            </li>
           </ul>
 
           <h3>
@@ -414,15 +450,6 @@ export function App() {
           </h3>
           <ul className="listing-details">
             <li>
-              <a href="https://roshambo-ssoltesz.netlify.app" target="blank">
-                <img
-                  src={roshambo}
-                  alt="Roshambo website screenshot"
-                  width="250"
-                />
-              </a>
-            </li>
-            <li>
               <p>
                 Roshambo is a project that builds the classic &quot;Rock, Paper,
                 Scissors&quot; game while allowing for practice with UI
@@ -431,14 +458,22 @@ export function App() {
                 player&apos;s selection. This version of the game also offers
                 additional options for a player to select, based on a different
                 version of the game -
-                <a
-                  href="https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock"
-                  target="blank"
-                >
+                <a href="https://youtu.be/x5Q6-wMx-K8" target="blank">
                   <em>Rock, Paper, Scissors, Lizard, Spock</em>
                 </a>
                 , which increased the conditional logic for each player.
               </p>
+              <h4>Technology Used:</h4>
+              <p className="technology-icons"></p>
+            </li>
+            <li>
+              <a href="https://roshambo-ssoltesz.netlify.app" target="blank">
+                <img
+                  src={roshambo}
+                  alt="Roshambo website screenshot"
+                  width="250"
+                />
+              </a>
             </li>
           </ul>
           <h3>
@@ -448,13 +483,23 @@ export function App() {
           </h3>
           <ul className="listing-details">
             <li>
+              <a href="https://octodex-ssoltesz.netlify.app/" target="blank">
+                <img
+                  src={octodex}
+                  alt="Octodex website screenshot"
+                  width="250"
+                />
+              </a>
+            </li>
+            <li>
               <p>
                 This project demonstrated the ability to implement, from
-                scratch, a given website UI design. I rebuilt Github&apos;s
-                gallery named <a href="https://octodex.github.com/">Octodex</a>{' '}
-                that contains variations of their mascot, Octocat. The goal for
-                this project was to practice HTML &amp; CSS, including Flexbox
-                while also leveraging the browser&apos;s Developer Tools.
+                scratch, a given website UI design. I rebuilt the Github&apos;s
+                gallery named <a href="https://octodex.github.com/">Octodex</a>,
+                which contains variations of their mascot, Octocat. The goal for
+                this project was incorporate a sampling of the Octocats to
+                practice HTML &amp; CSS, including Flexbox, while also
+                leveraging the browser&apos;s Developer Tools.
               </p>
 
               <p>
@@ -464,23 +509,16 @@ export function App() {
                   href="https://reactocats-ssoltesz.netlify.app/"
                   target="blank"
                 >
-                  <em>Reactocats</em>
+                  Reactocats
                 </a>
                 &nbsp;was created. The foundation was repurposing the existing
                 HTML and CSS, but implementing Typescript through the render
-                method of the App component, SCSS, a component for an Octocat.
-                The component uses props to customize each block, rendering the
-                image and related details of each cat image.
+                method of the App component, SCSS, and a component for an
+                Octocat. The component uses props to customize each block,
+                rendering the image and all related details for each cat image.
               </p>
-            </li>
-            <li>
-              <a href="https://octodex-ssoltesz.netlify.app/" target="blank">
-                <img
-                  src={octodex}
-                  alt="Octodex website screenshot"
-                  width="250"
-                />
-              </a>
+              <h4>Technology Used:</h4>
+              <p className="technology-icons"></p>
             </li>
           </ul>
         </div>
@@ -494,7 +532,6 @@ export function App() {
               </a>
             </li>
             <li>
-              {' '}
               <a
                 href="https://www.linkedin.com/in/shawn-soltesz/"
                 target="_blank"
