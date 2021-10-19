@@ -49,33 +49,6 @@ export function App() {
       <main>
         <div id="home" className="home">
           <div className="home-header">
-            {/* <ul className="technology-logos">
-              <li>
-                <i className="fab fa-react"></i>
-              </li>
-              <li>
-                <i className="fab fa-html5"></i>
-              </li>
-              <li>
-                <i className="fab fa-sass"></i>
-              </li>
-              <li>
-                <i className="fab fa-js-square"></i>
-              </li>
-              <li>
-                <i className="fab fa-aws"></i>
-              </li>
-              <li>
-                <i className="fab fa-atlassian"></i>
-              </li>
-              <li>
-                <i className="fab fa-dropbox"></i>
-              </li>
-              <li>
-                <i className="fab fa-github-square"></i>
-              </li>
-            </ul> */}
-
             <div className="home-body">
               <div className="home-body-left">
                 <ul>
@@ -101,6 +74,7 @@ export function App() {
                 </ul>
                 <ul className="home-list">
                   <li>Curious and Optimistic </li>
+                  <li>Customer Centric</li>
                   <li>Entrepreneurial&nbsp;&nbsp;Spirit</li>
                   <li>Agile Project Management</li>
                   <li>Team Collaborator ...</li>
@@ -108,39 +82,12 @@ export function App() {
               </div>
             </div>
           </div>
-          {/* <ul className="technology-logos">
-            <li>
-              <i className="fab fa-microsoft"></i>
-            </li>
-            <li>
-              <i className="fab fa-apple"></i>
-            </li>
-            <li>
-              <i className="fab fa-google-drive"></i>
-            </li>
-            <li>
-              <i className="fab fa-drupal"></i>
-            </li>
-            <li>
-              <i className="fab fa-css3-alt"></i>
-            </li>
-            <li>
-              <i className="fab fa-npm"></i>
-            </li>
-            <li>
-              <i className="fab fa-figma"></i>
-            </li>
-            <li>
-              <i className="fas fa-database"></i>
-            </li>
-          </ul> */}
         </div>
 
         <div id="about" className="about">
           <div className="about-details">
             <h2>About</h2>
             <h3>Summary</h3>
-            {/* <p>Curious, Entrepreneurial and Optimistic</p> */}
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry&apos;s standard dummy
@@ -191,7 +138,7 @@ export function App() {
                   <strong>REST API:</strong> Cloudinary, Geocode, Mapbox
                 </li>
                 <li className="technical-skills">
-                  <strong>Software:</strong> Figma, MS Office, GSuite, Shopify
+                  <strong>Software:</strong> Figma, GSuite, MS Office, VS Code
                 </li>
               </ul>
 
@@ -258,44 +205,6 @@ export function App() {
               </ul>
             </span>
 
-            {/* <h3>Work History</h3>
-            <h4 className="experience">
-              Full Stack Web Development
-              Student&nbsp;&nbsp;&#124;&nbsp;&nbsp;Suncoast Developers Guild
-              &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2021
-            </h4>
-
-            <h4 className="experience">
-              Senior Asset Management Analyst &nbsp;&nbsp;&#124;&nbsp;&nbsp;
-              Pearson &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2020 - 2021
-            </h4>
-
-            <h4 className="experience">
-              Course Iteration Manager &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2U
-              &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2018 - 2020
-            </h4>
-
-            <h4 className="experience">
-              Course Implementation Specialist &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2U
-              &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2016 - 2018
-            </h4>
-
-            <h4 className="experience">
-              Founder and Proprietor &nbsp;&nbsp;&#124;&nbsp;&nbsp; Your Pet at
-              Home &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2014 - 2016
-            </h4>
-
-            <h4 className="experience">
-              Senior Manager of Curriculum Resources
-              &nbsp;&nbsp;&#124;&nbsp;&nbsp; Pearson
-              &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2010 - 2014
-            </h4>
-
-            <h4 className="experience">
-              E-Commerce Manager &nbsp;&nbsp;&#124;&nbsp;&nbsp; Smarterville,
-              Inc &nbsp;&nbsp;&#124;&nbsp;&nbsp; 2006 - 2010
-            </h4> */}
-
             <h3>Community Service</h3>
 
             <p className="community-service">
@@ -357,21 +266,46 @@ export function App() {
             </li>
             <li>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&apos;s standard
-                dummy text ever since the 1500s, when an unknown printer took a
-                galley of type and scrambled it to make a type specimen book. It
-                has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                StPete.pet is my capstone project to implement all of the topics
+                taught during the fulltime three month immersive bootcamp, to
+                produce a full stack web application.
               </p>
-              <h4>Technology Used:</h4>
+
+              <p>This large project was completed in the following phases:</p>
+
+              <ul className="capstone-phases">
+                <li>
+                  <strong>Phase One</strong>&nbsp;-&nbsp;Create user stories,
+                  build <a href="#">wireframes</a> of the pages/UI, create the{' '}
+                  <a href="#">Entity Relationship Diagram</a> of the
+                  application&apos;s data needs and build static HTML and CSS
+                  page mockups.
+                </li>
+                <li>
+                  <strong>Phase Two</strong>&nbsp;-&nbsp;Generate models and
+                  controllers to establish the database and API. Create the
+                  React component and configure a method to fetch data. Test
+                  functionality for creating and reading a record.
+                </li>
+                <li>
+                  <strong>Phase Three</strong>&nbsp;-&nbsp;Build out pages and
+                  features to include Search, fetching photos from Cloudinary,
+                  fetching address geocodes from Bing Map Geocodes and viewport
+                  map renderings from MapBox APIs. Configure the application to
+                  restrict actions within the application based on the
+                  user&apos;s authentication and authorization.
+                </li>
+                <li>
+                  <strong>Phase Four</strong>&nbsp;-&nbsp;Deploy the application
+                  to Heroku and perform complete functionality testing as well
+                  as bug troubleshooting.
+                </li>
+              </ul>
+
+              {/* <h4>Technology Used:</h4>
               <p className="technology-icons">
                 <i className="fab fa-react"></i>
-              </p>
+              </p> */}
             </li>
           </ul>
 
@@ -383,17 +317,15 @@ export function App() {
           <ul className="listing-details">
             <li>
               <p>
-                The Color Picker highlights one of the various ways that we can
-                think of colors on the web. For this project, I highlight HSL
-                &#40;hue, saturation and lightness&#41;, which is one of the
-                color identification methods that CSS supports. But along with
-                the HSL color percentages, the website responds to user events
-                using React. Hooks were used to drive the changes to the user
-                interface, and props rendered the inline styles to dynamically
-                update the appearance of the selected DOM elements.
+                Minesweeper married together many technologies and objectives -
+                practicing with Flexbox, understanding how state drives changes
+                to an interface in React and responding to user events in React,
+                working with two-dimensional arrays, understanding API
+                documentation and using fetch to perform a POST request to a
+                REST API.
               </p>
-              <h4>Technology Used:</h4>
-              <p className="technology-icons"></p>
+              {/* <h4>Technology Used:</h4>
+              <p className="technology-icons"></p> */}
             </li>
             <li>
               <a
@@ -438,8 +370,8 @@ export function App() {
                 interface, and props rendered the inline styles to dynamically
                 update the appearance of the selected DOM elements.
               </p>
-              <h4>Technology Used:</h4>
-              <p className="technology-icons"></p>
+              {/* <h4>Technology Used:</h4>
+              <p className="technology-icons"></p> */}
             </li>
           </ul>
 
@@ -457,14 +389,14 @@ export function App() {
                 as conditional logic for determining a winner based on each
                 player&apos;s selection. This version of the game also offers
                 additional options for a player to select, based on a different
-                version of the game -
+                version of the game -&nbsp;
                 <a href="https://youtu.be/x5Q6-wMx-K8" target="blank">
                   <em>Rock, Paper, Scissors, Lizard, Spock</em>
                 </a>
-                , which increased the conditional logic for each player.
+                .
               </p>
-              <h4>Technology Used:</h4>
-              <p className="technology-icons"></p>
+              {/* <h4>Technology Used:</h4>
+              <p className="technology-icons"></p> */}
             </li>
             <li>
               <a href="https://roshambo-ssoltesz.netlify.app" target="blank">
@@ -517,8 +449,8 @@ export function App() {
                 Octocat. The component uses props to customize each block,
                 rendering the image and all related details for each cat image.
               </p>
-              <h4>Technology Used:</h4>
-              <p className="technology-icons"></p>
+              {/* <h4>Technology Used:</h4>
+              <p className="technology-icons"></p> */}
             </li>
           </ul>
         </div>

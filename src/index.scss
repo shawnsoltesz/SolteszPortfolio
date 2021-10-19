@@ -288,6 +288,7 @@ header {
 .portfolio {
   background-color: rgb(235, 219, 149);
   padding: 1rem;
+  padding-bottom: 2rem;
   margin-bottom: 1rem;
 
   a {
@@ -317,6 +318,9 @@ header {
       border-width: 2px;
       // border-radius: 10px;
     }
+  }
+  .capstone-phases li {
+    margin-top: 0.5rem;
   }
 }
 
