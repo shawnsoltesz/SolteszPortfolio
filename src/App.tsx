@@ -89,30 +89,29 @@ export function App() {
             <h2 className="section-header">About</h2>
             <h3>Summary</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard dummy
-              text ever since the 1500s, when an unknown printer took a galley
-              of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              After spending 15 years in various operational and implementation
+              roles within Ed Tech, Shawn felt unsure of his exact career
+              trajectory. Therefore after considering what excited him about his
+              work experiences, all signs pointed to working with the technology
+              that powered the products, and the users. Therefore, he decided to
+              take a pause and enrolled in the three month immersive Full Stack
+              Web Development immersive bootcamp with&nbsp;
+              <a href="https://suncoast.io" target="blank">
+                Suncoast Developers Guild
+              </a>
+              . &nbsp;In this full time bootcamp, Shawn pursued the skills and
+              knowledge that offers opportunities to be hands on with building
+              and supporting the products created and used by the end-user.
             </p>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard dummy
-              text ever since the 1500s, when an unknown printer took a galley
-              of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Shawn is a multifaceted professional who is interested in pursuing
+              a career in web development with interests in front end coding,
+              project management, business analysis, QA and information
+              architecture. He is flexible, curious, analytical, and has a knack
+              for ensuring results are in line with expected outcomes. He
+              possesses experience with agile software development and the tools
+              used to support this approach through the SDLC.
             </p>
-
             {/* <h3>Technical</h3> */}
             <span className="technical">
               <ul className="skills">
@@ -138,7 +137,8 @@ export function App() {
                   <strong>REST API:</strong> Cloudinary, Geocode, Mapbox
                 </li>
                 <li className="technical-skills">
-                  <strong>Software:</strong> Figma, GSuite, MS Office, VS Code
+                  <strong>Software:</strong> Beekeeper Studio, Figma, GSuite,
+                  Insomnia, MS Office, VS Code
                 </li>
               </ul>
 
@@ -194,19 +194,17 @@ export function App() {
                     Tech4Good Tampa Meetup
                   </a>
                 </li>
-                <li className="meetups">
+                {/* <li className="meetups">
                   <a
                     href="https://www.meetup.com/Women-Who-Code-Tampa/"
                     target="_blank"
                   >
                     Women Who Code Tampa Meetup
                   </a>
-                </li>
+                </li> */}
               </ul>
             </span>
-
             <h3>Community Service</h3>
-
             <p className="community-service">
               <strong>
                 <em>St. Pete ReCANvers - Reclaim. Reincarnate. ReCANver</em>
@@ -233,7 +231,6 @@ export function App() {
                 Baltimore Techies for Good&nbsp;/&nbsp;TechSoup Group
               </a>
             </p>
-
             <button className="button" type="submit">
               <a
                 href="https://docs.google.com/document/d/1Q0ViUKuc30iZfFhvI1lbVgyZfo_tfEDQ/edit?usp=sharing&ouid=102913186379479915182&rtpof=true&sd=true"

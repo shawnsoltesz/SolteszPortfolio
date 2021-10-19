@@ -38,11 +38,7 @@ header {
   top: 0;
 }
 
-// Portfolio CSS
-
-// .section-header {
-//   font-family: 'Special Elite', cursive;
-// }
+// Content CSS
 
 .nav {
   display: flex;
@@ -97,7 +93,6 @@ header {
 }
 
 .home {
-  // background-color: rgb(204, 73, 50);
   background: rgb(235, 219, 149);
   background: linear-gradient(
     90deg,
@@ -105,7 +100,6 @@ header {
     rgba(44, 145, 176, 0.94) 50%,
     rgba(204, 73, 50, 1) 100%
   );
-  // padding: 0.5rem 0.75rem;
   margin-bottom: 1rem;
   color: rgb(252, 249, 249);
 
@@ -201,6 +195,14 @@ header {
     color: rgb(50, 204, 189);
   }
 
+  a {
+    color: inherit;
+  }
+
+  a:hover {
+    color: rgb(204, 73, 50);
+  }
+
   p {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
@@ -278,7 +280,6 @@ header {
     color: rgb(204, 73, 50);
   }
   a:active {
-    // color: rgb(128, 48, 34);
     color: rgb(44, 145, 176);
   }
 }
