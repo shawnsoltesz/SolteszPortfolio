@@ -86,7 +86,7 @@ export function App() {
 
         <div id="about" className="about">
           <div className="about-details">
-            <h2>About</h2>
+            <h2 className="section-header">About</h2>
             <h3>Summary</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -225,7 +225,7 @@ export function App() {
                 <em>Technical Solutions&nbsp;/&nbsp;Web Development Day</em>
               </strong>
               <br />
-              Hackathon to benefit&nbsp;
+              Hackathon to benefit community nonprofits through&nbsp;
               <a
                 href="https://www.meetup.com/BaltimoreTechiesforGood/"
                 target="_blank"
@@ -247,7 +247,7 @@ export function App() {
         </div>
 
         <div id="portfolio" className="portfolio">
-          <h2>Portfolio</h2>
+          <h2 className="section-header">Portfolio</h2>
           <h3>
             <a href="https://stpete.pet" target="blank">
               StPete.pet
@@ -474,7 +474,7 @@ export function App() {
         </div>
 
         <div id="contact" className="contact">
-          <h2>Contact</h2>
+          <h2 className="section-header">Contact</h2>
           <ul>
             <li>
               <a href="https://github.com/shawnsoltesz" target="_blank">
@@ -506,7 +506,7 @@ export function App() {
         <div className="footer">
           <p>
             Built with <i className="heart fa fa-heart"></i> in St Petersburg,
-            Florida &nbsp;©2021
+            Florida &nbsp;©2021 Shawn Soltesz
           </p>
         </div>
       </footer>
