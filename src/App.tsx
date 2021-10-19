@@ -70,11 +70,11 @@ export function App() {
                   </li>
                 </ul>
                 <ul className="home-list">
-                  <li>Curious and Optimistic </li>
-                  <li>Customer Centric</li>
-                  <li>Entrepreneurial&nbsp;&nbsp;Spirit</li>
                   <li>Agile Project Management</li>
-                  <li>Team Collaborator ...</li>
+                  <li>Curious and Optimistic </li>
+                  <li>Entrepreneurial&nbsp;&nbsp;Spirit</li>
+                  <li>Team Collaborator</li>
+                  <li>User Centric ...</li>
                 </ul>
               </div>
             </div>
@@ -93,10 +93,10 @@ export function App() {
               that powered the products, and the users. Therefore, he decided to
               take a pause and enrolled in the three month immersive Full Stack
               Web Development immersive bootcamp with&nbsp;
-              <a href="https://suncoast.io" target="blank">
+              <a className="sdg" href="https://suncoast.io" target="blank">
                 Suncoast Developers Guild
               </a>
-              . &nbsp;In this full time bootcamp, Shawn pursued the skills and
+              .&nbsp;In this full time bootcamp, Shawn pursued the skills and
               knowledge that offers opportunities to be hands on with building
               and supporting the products created and used by the end-user.
             </p>
@@ -116,13 +116,13 @@ export function App() {
                   <h3>Technical Skills</h3>
                 </li>
                 <li className="technical-skills">
-                  <strong>Data:</strong> PostGreSQL, REST APIs, JSON
+                  <strong>Data:</strong> PostgreSQL, REST APIs, JSON
                 </li>
                 <li className="technical-skills">
                   <strong>DevOps:</strong> AWS, Confluence, Dropbox, GitHub
                 </li>
                 <li className="technical-skills">
-                  <strong>Frameworks:</strong> .NET, React with Hooks
+                  <strong>Frameworks:</strong> .NET, React
                 </li>
                 <li className="technical-skills">
                   <strong>Languages:</strong> C#, SQL, HTML, CSS, Typescript
@@ -131,7 +131,8 @@ export function App() {
                   <strong>Projects:</strong> Aha!, Azure ADO, Jira, Smartsheets
                 </li>
                 <li className="technical-skills">
-                  <strong>REST API:</strong> Cloudinary, Geocode, Mapbox
+                  <strong>REST API:</strong> Cloudinary, Bing Map Geocodes,
+                  Mapbox
                 </li>
                 <li className="technical-skills">
                   <strong>Software:</strong> Beekeeper Studio, Figma, GSuite,

@@ -128,13 +128,17 @@ header {
   }
 
   .home-body-right {
-    margin-top: 2rem;
+    margin-top: 1rem;
 
     li {
       display: flex;
       justify-content: center;
       align-content: center;
     }
+  }
+
+  .home-header h1 {
+    transform: translateY(25px);
   }
 
   ul.home-header li {
@@ -153,17 +157,6 @@ header {
   }
 }
 
-.technology-icons {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  display: flex;
-  justify-content: space-between;
-  font-size: 36px;
-  color: rgb(87, 65, 23);
-  flex-wrap: wrap;
-}
-
 .about {
   background-color: rgb(44, 145, 176);
   padding: 1rem 1rem;
@@ -179,6 +172,19 @@ header {
     color: white;
     border-radius: 20px;
     padding: 1rem 2rem;
+  }
+
+  a.sdg {
+    color: inherit;
+    color: rgb(220, 234, 235);
+  }
+
+  a.sdg:hover {
+    color: rgb(204, 73, 50);
+  }
+
+  a.sdg:active {
+    color: rgb(44, 145, 176);
   }
 
   h3 {
@@ -225,6 +231,7 @@ header {
       margin-left: 3rem;
     }
   }
+
   .experience {
     margin-left: 0.75rem;
   }
@@ -326,7 +333,6 @@ header {
       border: rgb(70, 169, 199);
       border-style: solid;
       border-width: 2px;
-      // border-radius: 10px;
     }
   }
   .capstone-phases li {
@@ -355,6 +361,8 @@ header {
   li {
     background-color: rgb(44, 145, 176);
     border-radius: 50px;
+    height: 50px;
+    width: 50px;
     padding: 1.5rem;
     display: flex;
     margin-top: 1px;
