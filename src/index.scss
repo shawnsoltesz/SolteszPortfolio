@@ -259,11 +259,22 @@ header {
   }
   .button:hover {
     background-color: rgb(204, 73, 50);
+    color: rgb(220, 234, 235);
+
+    a:hover {
+      background-color: rgb(204, 73, 50);
+      color: rgb(220, 234, 235);
+    }
   }
 
-  button:active {
+  .button:active {
     background-color: rgb(44, 145, 176);
     color: rgb(220, 234, 235);
+
+    a:active {
+      background-color: rgb(44, 145, 176);
+      color: rgb(220, 234, 235);
+    }
   }
 }
 

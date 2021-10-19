@@ -191,14 +191,6 @@ export function App() {
                     Tech4Good Tampa Meetup
                   </a>
                 </li>
-                {/* <li className="meetups">
-                  <a
-                    href="https://www.meetup.com/Women-Who-Code-Tampa/"
-                    target="_blank"
-                  >
-                    Women Who Code Tampa Meetup
-                  </a>
-                </li> */}
               </ul>
             </span>
             <h3>Community Service</h3>
@@ -233,8 +225,10 @@ export function App() {
                 href="https://docs.google.com/document/d/1Q0ViUKuc30iZfFhvI1lbVgyZfo_tfEDQ/edit?usp=sharing&ouid=102913186379479915182&rtpof=true&sd=true"
                 target="_blank"
               >
-                <i className="fas fa-file"></i>
-                &nbsp;View Resume
+                <span className="button-text">
+                  <i className="fas fa-file"></i>
+                  &nbsp;View Resume
+                </span>
               </a>
             </button>
           </div>
