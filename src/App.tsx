@@ -275,11 +275,29 @@ export function App() {
 
               <ul className="capstone-phases">
                 <li>
-                  <strong>Phase One</strong>&nbsp;-&nbsp;Create user stories,
-                  build <a href="#">wireframes</a> of the pages/UI, create the{' '}
-                  <a href="#">Entity Relationship Diagram</a> of the
-                  application&apos;s data needs and build static HTML and CSS
-                  page mockups.
+                  <strong>Phase One</strong>&nbsp;-&nbsp;Create&nbsp;
+                  <a
+                    href="https://docs.google.com/document/d/1rwu-7aoeaR-BJW92am9CslifYHxaMW6vYoZ6-sM8Frk/edit?usp=sharing"
+                    target="blank"
+                  >
+                    user stories
+                  </a>
+                  , build&nbsp;
+                  <a
+                    href="https://docs.google.com/document/d/1qM-4b8j0g1N7xRRZVd6H6ORSk7xBbCkMz435XwUZUDQ/edit?usp=sharing"
+                    target="blank"
+                  >
+                    wireframes
+                  </a>
+                  &nbsp;of the pages/UI using Figma, create the&nbsp;
+                  <a
+                    href="https://docs.google.com/document/d/1zQj8uuRNkCFhO3G8e0LPYNMh4MNDw0qIUBNE1fsCvRE/edit?usp=sharing"
+                    target="blank"
+                  >
+                    Entity Relationship Diagram
+                  </a>
+                  &nbsp;of the application&apos;s data needs and build static
+                  HTML and CSS page mockups.
                 </li>
                 <li>
                   <strong>Phase Two</strong>&nbsp;-&nbsp;Generate models and
