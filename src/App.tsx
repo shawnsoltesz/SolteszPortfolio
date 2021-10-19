@@ -2,7 +2,7 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
 
-import logo from './images/soltesz_logo.svg'
+import logo from './images/shawnsoltesz_sm_logo.png'
 import headshot from './images/shawn_soltesz_headshot.jpg'
 import stpetepet from './images/spp_screenshot.png'
 import colorpicker from './images/color_picker_screenshot.png'
@@ -17,12 +17,9 @@ export function App() {
         <div className="nav">
           <ul className="nav-left">
             <li>
-              <img
-                src={logo}
-                alt="Shawn Soltesz logo"
-                width="200"
-                height="45"
-              />
+              <a href="#home">
+                <img src={logo} alt="Shawn Soltesz logo" width="200" />
+              </a>
             </li>
           </ul>
 
