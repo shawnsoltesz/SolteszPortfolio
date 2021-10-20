@@ -83,7 +83,7 @@ export function App() {
         <div id="about" className="about">
           <div className="about-details">
             <h2 className="section-header">About</h2>
-            <h3>Summary</h3>
+            <h3>Career Summary</h3>
             <p>
               After spending 15 years in various operational and implementation
               roles within Ed Tech, Shawn felt unsure of his exact career
