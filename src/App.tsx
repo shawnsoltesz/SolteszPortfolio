@@ -95,16 +95,17 @@ export function App() {
               <a className="sdg" href="https://suncoast.io" target="blank">
                 Suncoast Developers Guild
               </a>
-              .&nbsp;In this full time bootcamp, Shawn pursued the skills and
-              knowledge that offers opportunities to be hands on with building
+              .&nbsp;In this full-time bootcamp, Shawn pursued the skills and
+              knowledge that offers opportunities to be hands-on with building
               and supporting the products created and used by the end-user.
             </p>
             <p>
               Shawn is a multifaceted professional who is interested in pursuing
-              a career in web development with interests in front end coding,
-              project management, business analysis, QA and information
-              architecture. He is flexible, curious, analytical, and has a knack
-              for ensuring results are in line with expected outcomes. He
+              a career in web development with interests in front end coding, QA
+              and information architecture; as well as the supporting agile
+              project management and business analysis functions. He is
+              flexible, curious, analytical, and has a knack for ensuring
+              results are in line with expected outcomes and requirements. He
               possesses experience with agile software development and the tools
               used to support this approach through the SDLC.
             </p>
@@ -124,10 +125,12 @@ export function App() {
                   <strong>Frameworks:</strong> .NET, React
                 </li>
                 <li className="technical-skills">
-                  <strong>Languages:</strong> C#, SQL, HTML, CSS, Typescript
+                  <strong>Languages:</strong> C#, SQL, HTML, CSS, Javascript,
+                  Typescript
                 </li>
                 <li className="technical-skills">
-                  <strong>Projects:</strong> Aha!, Azure ADO, Jira, Smartsheets
+                  <strong>Projects:</strong> Aha!, Azure DevOps, Jira,
+                  Smartsheets
                 </li>
                 <li className="technical-skills">
                   <strong>REST API:</strong> Cloudinary, Bing Map Geocodes,
@@ -189,6 +192,14 @@ export function App() {
                     target="_blank"
                   >
                     Tech4Good Tampa Meetup
+                  </a>
+                </li>
+                <li className="meetups">
+                  <a
+                    href="https://www.meetup.com/Women-Who-Code-Tampa/"
+                    target="_blank"
+                  >
+                    Women Who Code Tampa Meetup
                   </a>
                 </li>
               </ul>
