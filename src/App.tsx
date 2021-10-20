@@ -101,13 +101,14 @@ export function App() {
             </p>
             <p>
               Shawn is a multifaceted professional who is interested in pursuing
-              a career in web development with interests in front end coding, QA
-              and information architecture; as well as the supporting agile
-              project management and business analysis functions. He is
-              flexible, curious, analytical, and has a knack for ensuring
-              results are in line with expected outcomes and requirements. He
-              possesses experience with agile software development and the tools
-              used to support this approach through the SDLC.
+              a career that leverages his professional experience while focusing
+              on web development with interests in front end coding, QA and
+              information architecture; as well as supporting agile project
+              management and business analysis functions. He is flexible,
+              curious, analytical, and has a knack for ensuring results are in
+              line with expected outcomes and requirements. He possesses
+              experience with agile software development and the tools used to
+              support this approach through the SDLC.
             </p>
             {/* <h3>Technical</h3> */}
             <span className="technical">
