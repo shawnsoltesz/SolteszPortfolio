@@ -235,8 +235,8 @@ export function App() {
               <br />
               <br />
               My role on the freshly assembled team was to gather assets and
-              content to build out one of the new landing pages on the
-              organization&apos;s GoDaddy platform, dedicated to their&nbsp;
+              build out one of the new landing pages on the organization&apos;s
+              GoDaddy platform, dedicated to their&nbsp;
               <a href="https://tmwks.org/" target="blank">
                 Teamworks
               </a>
