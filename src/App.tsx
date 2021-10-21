@@ -210,6 +210,7 @@ export function App() {
               <strong>
                 <em>St. Pete ReCANvers - Reclaim. Reincarnate. ReCANver</em>
               </strong>
+              <br />
               <br />A personal project created to collect aluminum cans from the
               community and recycle them for money to be donated to local St
               Petersburg, FL non-profit &nbsp;
@@ -231,6 +232,50 @@ export function App() {
               >
                 Baltimore Techies for Good&nbsp;/&nbsp;TechSoup Group
               </a>
+              <br />
+              <br />
+              My role on the freshly assembled team was to gather assets and
+              content to build out one of the new landing pages on the
+              organization&apos;s GoDaddy platform, dedicated to their&nbsp;
+              <a href="https://tmwks.org/" target="blank">
+                Teamworks
+              </a>
+              &nbsp;virtual incubator program offered through&nbsp;
+              <a href="https://bjhsg.org/" target="blank">
+                Baltimore Job Hunters Support Group
+              </a>
+              &nbsp;and their expansion under the nonprofit&nbsp;
+              <a href="https://lifecareerpivoteer.org/" target="blank">
+                LifeCareer Pivoteers
+              </a>
+              . In addition to the website assembly, my contributions also
+              included identifying gaps with the overall information
+              architecture and flow in bringing together three landing pages
+              together under one main website in a cohesive manner.
+              <br /> <br />
+              As a result of our work, Janet Glover-Kerkvliet, Executive
+              Director, shared this feedback - <br />
+              <br />
+              &quot;
+              <em>
+                I&#39;m already getting positive feedback on our new landing
+                pages! There are so many things that were so amazing about being
+                a part of TechSoup/Techies for Good Dev Day. Everyone was
+                genuinely interested in my work with the Baltimore Job Hunters
+                Support Group and our expansion via our umbrella nonprofit
+                LifeCareerPivoteers. Everyone was very supportive and kind.
+                It&#39;s hard to describe the feeling I got when I saw all that
+                got done on Saturday; the results were amazing. There is so much
+                to attend to getting 3 websites going and it is something that I
+                couldn&#39;t have done on my own, and I appreciate their
+                willingness to work with a platform that I was used to.
+                <br />
+                <br /> I’m so grateful for tech people who are interested in
+                helping nonprofits. I know that their skill and expertise is so
+                valuable and the assistance I&#39;ve received would have cost
+                thousands, so I&#39;m really in awe of everyone&#39;s
+                generosity.
+              </em>
             </p>
             <button className="button" type="submit">
               <a
@@ -268,7 +313,12 @@ export function App() {
               <p>
                 StPete.pet is my capstone project to implement all of the topics
                 taught during the fulltime three month immersive bootcamp, to
-                produce a full stack web application.
+                produce a full stack web application. The inspiration for this
+                project was derived from how pet friendly St Petersburg is as a
+                city. While some of the businesses and points of interests are
+                widely know to fellow pet owners, some are not. So it is my hope
+                to showcase everywhere pets are welcome. &#40;
+                <strong>&#35;petswelcomehere</strong>&#41;
               </p>
 
               <p>This large project was completed in the following phases:</p>
