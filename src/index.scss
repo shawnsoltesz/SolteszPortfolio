@@ -225,12 +225,11 @@ header {
   }
 
   .technical {
-    // display: flex;
-    // flex-direction: column;
     margin-bottom: 0.5rem;
 
     .skills {
       margin-left: 0.5rem;
+      margin-bottom: 1rem;
     }
 
     .technical-skills,
@@ -239,6 +238,7 @@ header {
     }
     .community {
       margin-left: 0.75rem;
+      margin-bottom: 1rem;
     }
   }
 

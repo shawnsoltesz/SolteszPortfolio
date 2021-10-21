@@ -604,7 +604,7 @@ export function App() {
         <div className="footer">
           <p>
             Built with <i className="heart fa fa-heart"></i> in St Petersburg,
-            Florida &nbsp;©2021 Shawn Soltesz
+            Florida&nbsp;|&nbsp;©2021 Shawn Soltesz
           </p>
         </div>
       </footer>
