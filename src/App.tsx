@@ -91,7 +91,7 @@ export function App() {
               work experiences, all signs pointed to working with the technology
               that powered the products, and the users. Therefore, he decided to
               take a professional pause and enrolled in the three month
-              immersive Full Stack Web Development immersive bootcamp with&nbsp;
+              immersive Full Stack Web Development bootcamp with&nbsp;
               <a className="sdg" href="https://suncoast.io" target="blank">
                 Suncoast Developers Guild
               </a>
