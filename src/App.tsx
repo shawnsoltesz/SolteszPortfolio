@@ -276,6 +276,7 @@ export function App() {
                 thousands, so I&#39;m really in awe of everyone&#39;s
                 generosity.
               </em>
+              &quot;
             </p>
             <button className="button" type="submit">
               <a
