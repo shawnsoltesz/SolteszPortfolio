@@ -40,6 +40,10 @@ header {
 
 // Content CSS
 
+.id {
+  margin-top: 10px;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -74,6 +78,10 @@ header {
 .nav-right {
   padding-right: 10px;
 
+  .nav-text {
+    display: none;
+  }
+
   li a {
     text-decoration: none;
     color: inherit;
@@ -103,11 +111,6 @@ header {
   margin-bottom: 1rem;
   color: rgb(252, 249, 249);
 
-  .home-body {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
   .home-body-left li {
     display: flex;
     justify-content: center;
@@ -128,50 +131,57 @@ header {
   }
 
   .home-body-right {
-    margin-top: 1rem;
+    transform: translateY(-30px);
 
     li {
       display: flex;
       justify-content: center;
-      align-content: center;
     }
   }
 
-  .home-header h1 {
-    transform: translateY(25px);
+  .home-header {
+    text-align: center;
+
+    h1 {
+      transform: translateY(25px);
+    }
   }
 
   ul.home-header li {
     font-family: 'Special Elite', cursive;
+    display: flex;
+    justify-content: center;
   }
 
   ul.home-list li {
     display: flex;
-    justify-content: start;
+    justify-content: center;
+    flex-wrap: wrap;
     align-content: space-between;
     font-size: 2rem;
     color: rgb(31, 30, 30);
     font-size: 1.5rem;
     margin-top: 1rem;
     font-family: 'Homemade Apple', cursive;
+    transform: translateY(10px);
   }
 }
 
 .about {
   background-color: rgb(44, 145, 176);
-  padding: 1rem 1rem;
+  padding: 1rem;
   margin-bottom: 1rem;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
 
   .about-details {
-    margin: 1rem 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: 1rem 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     background-color: rgb(85, 77, 61);
     color: white;
     border-radius: 20px;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
   }
 
   a.sdg {
@@ -215,8 +225,8 @@ header {
   }
 
   .technical {
-    display: flex;
-    justify-content: space-around;
+    // display: flex;
+    // flex-direction: column;
     margin-bottom: 0.5rem;
 
     .skills {
@@ -228,12 +238,8 @@ header {
       margin-left: 0.75rem;
     }
     .community {
-      margin-left: 3rem;
+      margin-left: 0.75rem;
     }
-  }
-
-  .experience {
-    margin-left: 0.75rem;
   }
 
   .community-service {
@@ -319,14 +325,21 @@ header {
     color: rgb(44, 145, 176);
   }
 
+  h3 {
+    text-align: center;
+  }
+
   ul.listing-details {
-    display: flex;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
 
     li {
-      margin-left: 1rem;
-      margin-right: 1rem;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+
+    .screenshot {
+      text-align: center;
     }
 
     img {
@@ -367,6 +380,7 @@ header {
     display: flex;
     margin-top: 1px;
     justify-content: center;
+    margin: 0.25rem;
 
     .github,
     .linkedin {
@@ -400,5 +414,145 @@ footer {
 
   .heart {
     color: red;
+  }
+}
+
+// MEDIA QUERIES
+
+@media screen and (min-width: 700px) {
+  .nav-right {
+    padding-right: 10px;
+
+    .nav-text {
+      display: inline;
+    }
+  }
+
+  .home-body {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .home-header h1 {
+    transform: translateY(25px);
+  }
+
+  ul.home-header li {
+    font-family: 'Special Elite', cursive;
+  }
+
+  .home-body-right {
+    margin-top: 2.5rem;
+    transform: translateY(-30px);
+  }
+
+  ul.home-list li {
+    display: flex;
+    justify-content: start;
+    align-content: space-between;
+    font-size: 2rem;
+    color: rgb(31, 30, 30);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-family: 'Homemade Apple', cursive;
+  }
+
+  .about {
+    background-color: rgb(44, 145, 176);
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+
+    .about-details {
+      margin: 1rem 2rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      background-color: rgb(85, 77, 61);
+      color: white;
+      border-radius: 20px;
+      padding: 1rem 2rem;
+    }
+  }
+
+  .technical {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+
+    .skills {
+      margin-left: 0.5rem;
+    }
+
+    .technical-skills,
+    .meetups {
+      margin-left: 0.75rem;
+    }
+    .community {
+      margin-left: 3rem;
+    }
+  }
+
+  .portfolio h3 {
+    text-align: left;
+  }
+
+  ul.listing-details {
+    display: flex;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+    p {
+      margin-top: 0;
+    }
+
+    li {
+      margin-left: 1rem;
+      margin-right: 1rem;
+      text-align: left;
+    }
+
+    img {
+      border: rgb(70, 169, 199);
+      border-style: solid;
+      border-width: 2px;
+    }
+  }
+
+  .contact {
+    background-color: rgb(85, 77, 61);
+    color: rgb(252, 249, 249);
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    ul {
+      padding: 0.75rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      display: flex;
+      justify-content: space-around;
+      font-size: 48px;
+      flex-wrap: wrap;
+      color: rgb(177, 216, 211);
+    }
+
+    li {
+      background-color: rgb(44, 145, 176);
+      border-radius: 50px;
+      height: 50px;
+      width: 50px;
+      padding: 1.5rem;
+      display: flex;
+      margin-top: 1px;
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .nav-right {
+    padding-right: 8px;
   }
 }
