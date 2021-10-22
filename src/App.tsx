@@ -103,7 +103,6 @@ export function App() {
         </div>
 
         <div id="about">
-          {' '}
           <div className="about">
             <div className="about-details">
               <h2 className="section-header">About</h2>
@@ -113,10 +112,10 @@ export function App() {
                 implementation roles within Ed Tech, Shawn felt unsure of his
                 exact career trajectory. Therefore after considering what
                 excited him about his work experiences, all signs pointed to
-                working with the technology that powered the products, and the
-                users. Therefore, he decided to take a professional pause and
-                enrolled in the three month immersive Full Stack Web Development
-                bootcamp with&nbsp;
+                working with, and supporting, the technology that powered the
+                products and the users. Therefore, he decided to take a
+                professional pause and enrolled in the three month immersive
+                Full Stack Web Development bootcamp with&nbsp;
                 <a className="sdg" href="https://suncoast.io" target="blank">
                   Suncoast Developers Guild
                 </a>
@@ -137,7 +136,7 @@ export function App() {
                 development and the tools used to support this approach through
                 the SDLC.
               </p>
-              {/* <h3>Technical</h3> */}
+
               <span className="technical">
                 <ul className="skills">
                   <li>
@@ -325,7 +324,6 @@ export function App() {
         </div>
 
         <div id="portfolio">
-          {' '}
           <div className="portfolio">
             <h2 className="section-header">Portfolio</h2>
             <h3>
@@ -405,11 +403,11 @@ export function App() {
                     testing as well as bug troubleshooting.
                   </li>
                 </ul>
-
-                {/* <h4>Technology Used:</h4>
-              <p className="technology-icons">
-                <i className="fab fa-react"></i>
-              </p> */}
+                <br />
+                <p>
+                  <strong>Tech Stack:</strong> C#, .NET, PostgreSQL, REST API,
+                  Fetch, Typescript, Javascript, HTML, CSS
+                </p>
               </li>
             </ul>
 
@@ -443,8 +441,11 @@ export function App() {
                   API documentation and using fetch to perform a POST request to
                   a REST API.
                 </p>
-                {/* <h4>Technology Used:</h4>
-              <p className="technology-icons"></p> */}
+
+                <p>
+                  <strong>Tech Stack:</strong> REST API, two-dimensional arrays,
+                  Typescript, Javascript, React, HTML, CSS
+                </p>
               </li>
             </ul>
             <h3>
@@ -480,8 +481,11 @@ export function App() {
                   dynamically update the appearance of the selected DOM
                   elements.
                 </p>
-                {/* <h4>Technology Used:</h4>
-              <p className="technology-icons"></p> */}
+
+                <p>
+                  <strong>Tech Stack:</strong> Typescript, React, Javascript,
+                  HTML, SCSS
+                </p>
               </li>
             </ul>
 
@@ -514,8 +518,11 @@ export function App() {
                   </a>
                   .
                 </p>
-                {/* <h4>Technology Used:</h4>
-              <p className="technology-icons"></p> */}
+
+                <p>
+                  <strong>Tech Stack:</strong> REST API, Fetch, Typescript, HTML
+                  CSS, DOM, Conditional Logic
+                </p>
               </li>
             </ul>
             <h3>
@@ -561,15 +568,19 @@ export function App() {
                   rendering the image and all related details for each cat
                   image.
                 </p>
-                {/* <h4>Technology Used:</h4>
-              <p className="technology-icons"></p> */}
+
+                <p>
+                  <strong>Tech Stack:</strong> <u>Octodex</u> - Typescript,
+                  HTML, CSS, Flexbox, Developer Tools | <u>Reactocats</u> -
+                  Typescript, Javascript, HTML, CSS, SCSS, render method of App
+                  component
+                </p>
               </li>
             </ul>
-          </div>{' '}
+          </div>
         </div>
 
         <div id="contact">
-          {' '}
           <div className="contact">
             <h2 className="section-header">Contact</h2>
             <ul>
