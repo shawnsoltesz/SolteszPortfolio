@@ -572,7 +572,7 @@ export function App() {
                 <p>
                   <strong>Tech Stack:</strong> <u>Octodex</u> - Typescript,
                   HTML, CSS, Flexbox, Developer Tools | <u>Reactocats</u> -
-                  Typescript, Javascript, HTML, CSS, SCSS, render method of App
+                  Typescript, Javascript, HTML, CSS, SCSS, Render method of App
                   component
                 </p>
               </li>
