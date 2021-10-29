@@ -116,7 +116,11 @@ export function App() {
                 products and the users. Therefore, he decided to take a
                 professional pause and enrolled in the three month immersive
                 Full Stack Web Development bootcamp with&nbsp;
-                <a className="sdg" href="https://suncoast.io" target="blank">
+                <a
+                  className="sdg"
+                  href="https://suncoast.io/grads/cohort-22/"
+                  target="blank"
+                >
                   Suncoast Developers Guild
                 </a>
                 .&nbsp;In this full-time bootcamp, Shawn pursued the skills and
@@ -396,6 +400,8 @@ export function App() {
                     viewport map renderings from MapBox APIs. Configure the
                     application to restrict actions within the application based
                     on the user&apos;s authentication and authorization.
+                    Complete CRUD capabilities - ability to update and delete a
+                    record.
                   </li>
                   <li>
                     <strong>Phase Four</strong>&nbsp;-&nbsp;Deploy the
@@ -406,7 +412,7 @@ export function App() {
                 <br />
                 <p>
                   <strong>Tech Stack:</strong> C#, .NET, PostgreSQL, REST API,
-                  Fetch, Typescript, Javascript, HTML, CSS
+                  Fetch, Typescript, Javascript, React, HTML, CSS
                 </p>
               </li>
             </ul>
@@ -483,7 +489,7 @@ export function App() {
                 </p>
 
                 <p>
-                  <strong>Tech Stack:</strong> Typescript, React, Javascript,
+                  <strong>Tech Stack:</strong> Typescript, Javascript, React,
                   HTML, SCSS
                 </p>
               </li>
@@ -570,10 +576,10 @@ export function App() {
                 </p>
 
                 <p>
-                  <strong>Tech Stack:</strong> <u>Octodex</u> - Typescript,
-                  HTML, CSS, Flexbox, Developer Tools | <u>Reactocats</u> -
-                  Typescript, Javascript, HTML, CSS, SCSS, Render method of App
-                  component
+                  <strong>Tech Stack:</strong> <em>Octodex</em> - Typescript,
+                  HTML, CSS, Flexbox, Developer Tools&nbsp;&nbsp;| &nbsp;&nbsp;
+                  <em>Reactocats</em> - Typescript, Javascript, React, HTML,
+                  CSS, SCSS
                 </p>
               </li>
             </ul>
