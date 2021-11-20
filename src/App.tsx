@@ -28,4 +28,4 @@ export function App()
       <Footer data={landingPageData.Footer} />
     </div>
   );
-  }
+}
