@@ -1,8 +1,20 @@
 {
-  "Contact": {
-    "location": "St Petersburg, FL",
-    "year": "2021"
-  },
+  "Contact": [
+    {
+      "link": "tel:410-802-6550",
+      "icon": "phone fas fa-phone-alt"
+    },
+
+    { "link": "mailto:shawnjsoltesz@gmail.com", "icon": "fas fa-envelope" },
+    {
+      "link": "https://github.com/shawnsoltesz",
+      "icon": "github fab fa-github-square"
+    },
+    {
+      "link": "https://www.linkedin.com/in/shawn-soltesz/",
+      "icon": "linkedin fab fa-linkedin"
+    }
+  ],
 
   "Footer": {
     "location": "St Petersburg, FL",

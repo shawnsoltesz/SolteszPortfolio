@@ -8,26 +8,8 @@ export function Contact(props: any) {
         <h2 className="section-header">Contact</h2>
         <ul>
           <li>
-            <a href="tel:410-802-6550">
-              <i className="phone fas fa-phone-alt"></i>
-            </a>
-          </li>
-          <li>
-            <a href="mailto:shawnjsoltesz@gmail.com">
-              <i className="fas fa-envelope"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/shawnsoltesz" target="_blank">
-              <i className="github fab fa-github-square"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/shawn-soltesz/"
-              target="_blank"
-            >
-              <i className="linkedin fab fa-linkedin"></i>
+            <a href={props.data ? props.data.link : 'Loading'}>
+              <i className={props.data ? props.data.icon : 'Loading'}></i>
             </a>
           </li>
         </ul>
