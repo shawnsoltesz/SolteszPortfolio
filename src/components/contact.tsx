@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
-export function Contact() {
+
+export function Contact(props: any) {
   return (
     <div id="contact">
       <div className="contact">
