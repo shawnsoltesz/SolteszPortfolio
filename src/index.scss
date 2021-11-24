@@ -108,6 +108,7 @@ header {
     rgba(44, 145, 176, 0.94) 50%,
     rgba(204, 73, 50, 1) 100%
   );
+  padding: 64px 64px;
   margin-bottom: 1rem;
   color: rgb(252, 249, 249);
 
@@ -169,7 +170,8 @@ header {
 
 .about {
   background-color: rgb(44, 145, 176);
-  padding: 1rem;
+  padding-top: 64px;
+  padding-bottom: 64px;
   margin-bottom: 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -310,8 +312,8 @@ header {
 
 .portfolio {
   background-color: rgb(235, 219, 149);
-  padding: 1rem;
-  padding-bottom: 2rem;
+  padding-top: 64px;
+  padding-bottom: 64px;
   margin-bottom: 1rem;
 
   a {
@@ -356,7 +358,8 @@ header {
 .contact {
   background-color: rgb(85, 77, 61);
   color: rgb(252, 249, 249);
-  padding: 1rem;
+  padding-top: 64px;
+  padding-bottom: 64px;
   margin-bottom: 1rem;
 
   ul {
@@ -378,9 +381,8 @@ header {
     width: 50px;
     padding: 1.5rem;
     display: flex;
-    margin-top: 1px;
     justify-content: center;
-    margin: 0.25rem;
+    margin: 0.5rem;
 
     .github,
     .linkedin {
@@ -459,7 +461,8 @@ footer {
 
   .about {
     background-color: rgb(44, 145, 176);
-    padding: 1rem 1rem;
+    padding-top: 64px;
+    padding-bottom: 64px;
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
