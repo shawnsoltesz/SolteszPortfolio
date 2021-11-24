@@ -1,4 +1,7 @@
 # Custom Dictionary Words
 bootcamp
+couldn
 geocodes
+Kerkvliet
 Octocats
+Pivoteers

@@ -1,4 +1,36 @@
 {
+  "About": [
+    {
+      "type": "Data:",
+      "skills": "PostgreSQL, REST APIs, JSON"
+    },
+
+    {
+      "type": "DevOps:",
+      "skills": "AWS, Confluence, Dropbox, GitHub"
+    },
+    {
+      "type": "Frameworks:",
+      "skills": ".NET, React"
+    },
+    {
+      "type": "Languages:",
+      "skills": "C#, SQL, HTML, CSS, Javascript, Typescript"
+    },
+    {
+      "type": "Projects:",
+      "skills": "Aha!, Azure DevOps, Jira, Smartsheets"
+    },
+    {
+      "type": "REST API:",
+      "skills": "Cloudinary, Bing Map Geocodes, Mapbox"
+    },
+    {
+      "type": "Software:",
+      "skills": "Beekeeper Studio, Figma, GSuite, Insomnia, MS Office, VS Code"
+    }
+  ],
+
   "Contact": [
     {
       "link": "tel:410-802-6550",

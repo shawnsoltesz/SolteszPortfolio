@@ -6,18 +6,21 @@ import { About } from './components/about'
 import { Portfolio } from './components/portfolio'
 import { Contact } from './components/contact'
 import { Footer } from './components/footer'
-import JsonData from "./data/data.json";
+import JsonData from './data/data.json'
 
-export function App()  
+export function App() {
 
- { const [landingPageData, setLandingPageData] = useState({});
+  const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []); 
 
-  {function JsonData(JsonData: any) {
+  {function JsonData(JsonData: string) {
     throw new Error('Function not implemented.')
   }
+
+  let landingPageData: any = {};
+
   return (
     <div>
       <Navigation />
@@ -27,5 +30,5 @@ export function App()
       <Contact data={landingPageData.Contact} />
       <Footer data={landingPageData.Footer} />
     </div>
-  );
+  )
 }

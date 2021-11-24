@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
-export function About() {
+export function About(props: any) {
   return (
     <div className="about" id="about">
       <div className="about-details">
@@ -43,27 +43,8 @@ export function About() {
               <h3>Technical Skills</h3>
             </li>
             <li className="technical-skills">
-              <strong>Data:</strong> PostgreSQL, REST APIs, JSON
-            </li>
-            <li className="technical-skills">
-              <strong>DevOps:</strong> AWS, Confluence, Dropbox, GitHub
-            </li>
-            <li className="technical-skills">
-              <strong>Frameworks:</strong> .NET, React
-            </li>
-            <li className="technical-skills">
-              <strong>Languages:</strong> C#, SQL, HTML, CSS, Javascript,
-              Typescript
-            </li>
-            <li className="technical-skills">
-              <strong>Projects:</strong> Aha!, Azure DevOps, Jira, Smartsheets
-            </li>
-            <li className="technical-skills">
-              <strong>REST API:</strong> Cloudinary, Bing Map Geocodes, Mapbox
-            </li>
-            <li className="technical-skills">
-              <strong>Software:</strong> Beekeeper Studio, Figma, GSuite,
-              Insomnia, MS Office, VS Code
+              <strong>{props.data ? props.data.type : 'Loading'}</strong>&nbsp;{' '}
+              {props.data ? props.data.skills : 'Loading'}
             </li>
           </ul>
 
@@ -72,10 +53,7 @@ export function About() {
               <h3>Technical Community</h3>
             </li>
             <li className="meetups">
-              <a
-                href="https://www.meetup.com/BaltimoreTechiesforGood/"
-                target="_blank"
-              >
+              <a href="" target="_blank">
                 Baltimore Techies for Good / TechSoup Group
               </a>
             </li>
@@ -167,7 +145,7 @@ export function About() {
           </a>
           &nbsp;and their expansion under the nonprofit&nbsp;
           <a href="https://lifecareerpivoteer.org/" target="blank">
-            LifeCareer Pivoteers
+            LifeCareer
           </a>
           . In addition to the website assembly, my contributions also included
           identifying gaps with the overall information architecture and flow in
