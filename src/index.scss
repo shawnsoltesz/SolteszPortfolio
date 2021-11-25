@@ -44,7 +44,7 @@ header {
   margin-top: 10px;
 }
 
-.nav {
+.nav-bar {
   display: flex;
   justify-content: space-between;
   padding-top: 8px;
@@ -78,19 +78,19 @@ header {
 .nav-right {
   padding-right: 10px;
 
-  .nav-text {
-    display: none;
-  }
+  // .nav-text {
+  //   display: none;
+  // }
 
   li a {
     text-decoration: none;
     color: inherit;
     font-size: 20px;
 
-    a:hover {
+    :hover {
       color: rgb(204, 73, 50);
     }
-    a:active {
+    :active {
       color: rgb(44, 145, 176);
     }
   }
@@ -98,6 +98,73 @@ header {
 
 .nav-icon {
   color: rgb(44, 145, 176);
+}
+
+.floating-btn {
+  position: fixed;
+  top: 15px;
+  right: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #f1f1f1;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bars {
+  color: rgba(44, 145, 176, 0.94);
+}
+
+.hamburger-menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: rgb(220, 234, 235);
+  height: 100vh;
+  transition: transform 0.4s ease-in-out;
+
+  .active {
+    transform: translateX(0%);
+  }
+
+  .inactive {
+    display: none;
+  }
+
+  a {
+    display: block;
+    padding: 10px 25px;
+    font-size: 25px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+
+    :hover {
+      color: rgb(204, 73, 50);
+    }
+    :active {
+      color: rgb(44, 145, 176);
+    }
+  }
+}
+
+.hamburger-link:first-of-type {
+  padding-top: 55px;
+}
+
+.close-curtain {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 10px;
+  background: rgba(204, 73, 50, 1);
 }
 
 .home {
@@ -420,6 +487,12 @@ footer {
 }
 
 // MEDIA QUERIES
+
+@media screen and (max-width: 900px) {
+  nav {
+    transform: translateX(-100%);
+  }
+}
 
 @media screen and (min-width: 700px) {
   .nav-right {
