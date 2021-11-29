@@ -6,6 +6,16 @@
   display: flex;
   flex-wrap: wrap;
 
+  .about-section-header {
+    font-family: 'Special Elite', cursive;
+    text-align: left;
+    font-weight: 900;
+    border-bottom: white solid 1px;
+    padding-bottom: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
   .about-details {
     margin: 2rem;
     padding-bottom: 2rem;
@@ -37,6 +47,7 @@
     display: flex;
     align-self: center;
     margin-top: 1px;
+    line-height: 1.3rem;
   }
 
   a {
@@ -169,7 +180,7 @@
       margin-left: 0.75rem;
     }
     .community {
-      margin-left: 3rem;
+      margin-left: 2rem;
     }
   }
 }

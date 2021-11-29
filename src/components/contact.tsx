@@ -4,7 +4,7 @@ export function Contact() {
   return (
     <div id="contact">
       <div className="contact">
-        <h1 className="section-header">Contact</h1>
+        <h1 className="contact-section-header">Contact</h1>
         <ul>
           <li>
             <a href="tel:410-802-6550">

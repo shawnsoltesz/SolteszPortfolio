@@ -4,7 +4,7 @@ export function About() {
   return (
     <div className="about" id="about">
       <div className="about-details">
-        <h1 className="section-header">About</h1>
+        <h1 className="about-section-header">About</h1>
         <h2>Career Summary</h2>
         <p>
           After spending 15 years in various operational and implementation

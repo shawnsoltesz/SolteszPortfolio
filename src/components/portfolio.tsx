@@ -10,7 +10,7 @@ export function Portfolio() {
   return (
     <div id="portfolio">
       <div className="portfolio">
-        <h1 className="section-header">Portfolio</h1>
+        <h1 className="portfolio-section-header">Portfolio</h1>
         <h2>
           <a className="project-title" href="https://stpete.pet" target="blank">
             StPete.pet
@@ -236,7 +236,7 @@ export function Portfolio() {
               As an add-on, to practice with React, a second version of this
               project,&nbsp;
               <a
-                className="project-title"
+                className="second-version-project-title"
                 href="https://reactocats-ssoltesz.netlify.app/"
                 target="blank"
               >

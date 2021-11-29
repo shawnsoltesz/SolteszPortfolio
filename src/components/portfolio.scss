@@ -2,7 +2,17 @@
   background-color: rgb(235, 219, 149);
   padding-top: 100px;
   padding-bottom: 64px;
-  margin: 2rem 2rem;
+  margin: 1rem 1rem;
+
+  .portfolio-section-header {
+    font-family: 'Special Elite', cursive;
+    text-align: left;
+    font-weight: 900;
+    border-bottom: rgb(85, 77, 61) solid 1px;
+    padding-bottom: 1rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
 
   a {
     color: inherit;
@@ -15,11 +25,15 @@
     color: rgb(44, 145, 176);
   }
 
-  h2 {
-    text-align: center;
+  a.project-title {
+    font-family: 'Special Elite', cursive;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
   }
 
-  .project-title {
+  .second-version-project-title {
     font-family: 'Special Elite', cursive;
     font-weight: 700;
   }
@@ -27,6 +41,8 @@
   ul.listing-details {
     margin-left: 0.25rem;
     margin-right: 0.25rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 
     li {
       margin-left: 0.5rem;
@@ -47,9 +63,9 @@
       border: rgb(70, 169, 199);
       border-style: solid;
       border-width: 2px;
-      margin-left: 1rem;
     }
   }
+
   .capstone-phases li {
     margin-top: 0.5rem;
     padding-left: 3rem;
@@ -58,8 +74,8 @@
 }
 
 @media screen and (min-width: 800px) {
-  .portfolio h2 {
-    text-align: left;
+  a.project-title {
+    display: flex;
     margin-left: 2rem;
   }
 
@@ -87,6 +103,7 @@
       border: rgb(70, 169, 199);
       border-style: solid;
       border-width: 2px;
+      margin-left: 1rem;
     }
   }
 }
