@@ -1,0 +1,182 @@
+.about {
+  background-color: rgb(44, 145, 176);
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  .about-details {
+    margin: 1rem 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(85, 77, 61);
+    color: white;
+    border-radius: 20px;
+    padding: 2rem 2rem;
+    line-height: 1.1rem;
+  }
+
+  a.sdg {
+    color: inherit;
+    color: rgb(220, 234, 235);
+  }
+
+  a.sdg:hover {
+    color: rgb(204, 73, 50);
+  }
+
+  a.sdg:active {
+    color: rgb(44, 145, 176);
+  }
+
+  h3 {
+    color: rgb(235, 231, 223);
+    background-color: rgb(204, 73, 50);
+    border-radius: 15px;
+    padding: 0.5rem;
+    display: flex;
+    align-self: center;
+    margin-top: 1px;
+  }
+
+  h4 {
+    color: rgb(50, 204, 189);
+  }
+
+  a {
+    color: inherit;
+  }
+
+  a:hover {
+    color: rgb(204, 73, 50);
+  }
+
+  p {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .technical {
+    margin-bottom: 0.5rem;
+
+    .skills {
+      margin-left: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .technical-skills,
+    .meetups {
+      margin-left: 0.75rem;
+    }
+    .community {
+      margin-left: 0.75rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .community-service {
+    a {
+      color: inherit;
+      color: rgb(220, 234, 235);
+    }
+    a:hover {
+      color: rgb(204, 73, 50);
+    }
+    a:active {
+      color: rgb(44, 145, 176);
+    }
+  }
+
+  button {
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    width: auto;
+    color: rgb(87, 65, 23);
+    background-color: rgb(220, 234, 235);
+    padding: 0.5rem;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+  .button:hover {
+    background-color: rgb(204, 73, 50);
+    color: rgb(220, 234, 235);
+
+    a:hover {
+      background-color: rgb(204, 73, 50);
+      color: rgb(220, 234, 235);
+    }
+  }
+
+  .button:active {
+    background-color: rgb(44, 145, 176);
+    color: rgb(220, 234, 235);
+
+    a:active {
+      background-color: rgb(44, 145, 176);
+      color: rgb(220, 234, 235);
+    }
+  }
+}
+
+.technical-skills,
+.meetups {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+  a {
+    color: inherit;
+    color: rgb(220, 234, 235);
+  }
+  a:hover {
+    color: rgb(204, 73, 50);
+  }
+  a:active {
+    color: rgb(44, 145, 176);
+  }
+}
+
+
+@media screen and (min-width: 800px) {
+
+  .about {
+    background-color: rgb(44, 145, 176);
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+
+    .about-details {
+      margin: 1rem 2rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      background-color: rgb(85, 77, 61);
+      color: white;
+      border-radius: 20px;
+      padding: 1rem 2rem;
+      line-height: 1.3rem;
+    }
+  }
+
+  .technical {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+
+    .skills {
+      margin-left: 0.5rem;
+    }
+
+    .technical-skills,
+    .meetups {
+      margin-left: 0.75rem;
+    }
+    .community {
+      margin-left: 3rem;
+    }
+  }
