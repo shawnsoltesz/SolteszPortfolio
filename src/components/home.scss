@@ -1,0 +1,67 @@
+.home {
+  background: rgb(235, 219, 149);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 219, 149, 1) 0%,
+    rgba(44, 145, 176, 0.94) 50%,
+    rgba(204, 73, 50, 1) 100%
+  );
+  padding: 64px 64px;
+  margin-bottom: 1rem;
+  color: rgb(252, 249, 249);
+
+  .home-body-left li {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .headshot {
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    background-color: rgba(87, 65, 23, 0.687);
+    border: rgb(70, 169, 199);
+    border-style: solid;
+    border-width: 2px;
+  }
+
+  .home-body-right {
+    transform: translateY(-30px);
+
+    li {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .home-header {
+    text-align: center;
+
+    h1 {
+      transform: translateY(25px);
+    }
+  }
+
+  ul.home-header li {
+    font-family: 'Special Elite', cursive;
+    display: flex;
+    justify-content: center;
+  }
+
+  ul.home-list li {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    font-size: 2rem;
+    color: rgb(31, 30, 30);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-family: 'Homemade Apple', cursive;
+    transform: translateY(10px);
+  }
+}
