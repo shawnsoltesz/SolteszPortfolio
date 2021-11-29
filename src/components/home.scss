@@ -65,3 +65,34 @@
     transform: translateY(10px);
   }
 }
+
+@media screen and (min-width: 800px) {
+  .home-body {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .home-header h1 {
+    transform: translateY(25px);
+  }
+
+  ul.home-header li {
+    font-family: 'Special Elite', cursive;
+  }
+
+  .home-body-right {
+    margin-top: 2.5rem;
+    transform: translateY(-30px);
+  }
+
+  ul.home-list li {
+    display: flex;
+    justify-content: start;
+    align-content: space-between;
+    font-size: 2rem;
+    color: rgb(31, 30, 30);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-family: 'Homemade Apple', cursive;
+  }
+}

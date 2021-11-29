@@ -1,0 +1,92 @@
+.portfolio {
+  background-color: rgb(235, 219, 149);
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin: 2rem 2rem;
+
+  a {
+    color: inherit;
+  }
+  a:hover {
+    color: rgb(204, 73, 50);
+  }
+
+  a:active {
+    color: rgb(44, 145, 176);
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .project-title {
+    font-family: 'Special Elite', cursive;
+    font-weight: 700;
+  }
+
+  ul.listing-details {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+
+    li {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+
+    .screenshot {
+      text-align: center;
+    }
+
+    p {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      line-height: 1.1rem;
+    }
+
+    img {
+      border: rgb(70, 169, 199);
+      border-style: solid;
+      border-width: 2px;
+      margin-left: 1rem;
+    }
+  }
+  .capstone-phases li {
+    margin-top: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .portfolio h2 {
+    text-align: left;
+    margin-left: 2rem;
+  }
+
+  ul.listing-details {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    p {
+      margin-top: 0;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      line-height: 1.3rem;
+    }
+
+    li {
+      margin-left: 2rem;
+      margin-right: 2rem;
+      margin-bottom: 1rem;
+      text-align: left;
+      line-height: 1.3rem;
+    }
+
+    img {
+      border: rgb(70, 169, 199);
+      border-style: solid;
+      border-width: 2px;
+    }
+  }
+}

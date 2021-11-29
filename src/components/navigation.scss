@@ -130,3 +130,27 @@ a.hamburger-link:first-of-type {
   border-radius: 10px;
   background: rgba(204, 73, 50, 1);
 }
+
+// MEDIA QUERIES
+
+@media screen and (max-width: 900px) {
+  nav {
+    transform: translateX(-100%);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .nav-right {
+    padding-right: 10px;
+
+    .nav-text {
+      display: inline;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .nav-right {
+    padding-right: 8px;
+  }
+}
