@@ -7,7 +7,6 @@ export function Navigation() {
   const [checkWidth, setCheckWidth] = useState(window.innerWidth)
 
   const checkFunc = () => {
-    console.log(checkWidth)
     setCheckWidth(window.innerWidth)
   }
 
@@ -50,20 +49,70 @@ export function Navigation() {
                   X
                 </button>
               )}
-
-              <a className="hamburger-link" href="#home">
-                <i className="nav-icon fas fa-home"></i>&nbsp;Home
-              </a>
-              <a className="hamburger-link" href="#about">
-                <i className="nav-icon fas fa-info-circle"></i>&nbsp;About
-              </a>
-              <a className="hamburger-link" href="#portfolio">
-                <i className="nav-icon fas fa-briefcase"></i>&nbsp;Portfolio
-              </a>
-              <a className="hamburger-link" href="#contact">
-                <i className="nav-icon fas fa-mail-bulk"></i>&nbsp;Contact
-              </a>
             </div>
+            <ul className="first">
+              <li
+                className={
+                  toggleNav ? 'hamburger-active' : 'hamburger-inactive'
+                }
+              >
+                {checkWidth < 900 && (
+                  <a
+                    onClick={toggleNavFunc}
+                    className="hamburger-link"
+                    href="#home"
+                  >
+                    <i className="nav-icon fas fa-home"></i>&nbsp;Home
+                  </a>
+                )}
+              </li>
+
+              <li
+                className={
+                  toggleNav ? 'hamburger-active' : 'hamburger-inactive'
+                }
+              >
+                {checkWidth < 900 && (
+                  <a
+                    onClick={toggleNavFunc}
+                    className="hamburger-link"
+                    href="#about"
+                  >
+                    <i className="nav-icon fas fa-info-circle"></i>&nbsp;About
+                  </a>
+                )}
+              </li>
+              <li
+                className={
+                  toggleNav ? 'hamburger-active' : 'hamburger-inactive'
+                }
+              >
+                {checkWidth < 900 && (
+                  <a
+                    onClick={toggleNavFunc}
+                    className="hamburger-link"
+                    href="#portfolio"
+                  >
+                    <i className="nav-icon fas fa-briefcase"></i>&nbsp;Portfolio
+                  </a>
+                )}
+              </li>
+              <li
+                className={
+                  toggleNav ? 'hamburger-active' : 'hamburger-inactive'
+                }
+              >
+                {checkWidth < 900 && (
+                  <a
+                    onClick={toggleNavFunc}
+                    className="hamburger-link"
+                    href="#contact"
+                  >
+                    <i className="nav-icon fas fa-mail-bulk"></i>&nbsp;Contact
+                  </a>
+                )}
+              </li>
+            </ul>
           </div>
 
           {/* Full Screen Menu */}
@@ -71,25 +120,25 @@ export function Navigation() {
           <div className="full-screen-nav">
             {checkWidth > 900 && (
               <ul className="nav-right">
-                <li>
+                <li className="nav-menu">
                   <a href="#home">
                     <i className="nav-icon nav-text capstone-phases fas fa-home"></i>
                     &nbsp;Home
                   </a>
                 </li>
-                <li>
+                <li className="nav-menu">
                   <a href="#about">
                     <i className="nav-icon nav-text fas fa-info-circle"></i>
                     &nbsp;About
                   </a>
                 </li>
-                <li>
+                <li className="nav-menu">
                   <a href="#portfolio">
                     <i className="nav-icon nav-text fas fa-briefcase"></i>
                     &nbsp;Portfolio
                   </a>
                 </li>
-                <li>
+                <li className="nav-menu">
                   <a href="#contact">
                     <i className="nav-icon nav-text fas fa-mail-bulk"></i>
                     &nbsp;Contact

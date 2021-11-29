@@ -10,12 +10,12 @@ export function Portfolio() {
   return (
     <div id="portfolio">
       <div className="portfolio">
-        <h2 className="section-header">Portfolio</h2>
-        <h3>
-          <a href="https://stpete.pet" target="blank">
+        <h1 className="section-header">Portfolio</h1>
+        <h2>
+          <a className="project-title" href="https://stpete.pet" target="blank">
             StPete.pet
           </a>
-        </h3>
+        </h2>
 
         <ul className="listing-details">
           <li className="screenshot">
@@ -29,17 +29,15 @@ export function Portfolio() {
           </li>
           <li>
             <p>
-              StPete.pet is my capstone project to implement all of the topics
-              taught during the fulltime three month immersive bootcamp, to
-              produce a full stack web application. The inspiration for this
-              project was derived from how pet friendly St Petersburg is as a
-              city. While some of the businesses and points of interests are
+              StPete.pet is a full stack web application. The inspiration for
+              this project was derived from how pet friendly St Petersburg is as
+              a city. While some of the businesses and points of interests are
               widely know to fellow pet owners, some are not. So it is my hope
               to showcase everywhere pets are welcome. &#40;
               <strong>&#35;petswelcomehere</strong>&#41;
             </p>
 
-            <p>This large project was completed in the following phases:</p>
+            <p>This project was completed in the following phases:</p>
 
             <ul className="capstone-phases">
               <li>
@@ -96,11 +94,15 @@ export function Portfolio() {
           </li>
         </ul>
 
-        <h3>
-          <a href="https://mine-sweeper-ssoltesz.netlify.app/" target="blank">
+        <h2>
+          <a
+            className="project-title"
+            href="https://mine-sweeper-ssoltesz.netlify.app/"
+            target="blank"
+          >
             Minesweeper
           </a>
-        </h3>
+        </h2>
         <ul className="listing-details">
           <li className="screenshot">
             <a href="https://mine-sweeper-ssoltesz.netlify.app/" target="blank">
@@ -113,12 +115,11 @@ export function Portfolio() {
           </li>
           <li>
             <p>
-              Minesweeper married together many technologies and objectives -
-              practicing with Flexbox, understanding how state drives changes to
-              an interface in React and responding to user events in React,
-              working with two-dimensional arrays, understanding API
-              documentation and using fetch to perform a POST request to a REST
-              API.
+              Minesweeper combined many technologies and objectives - practicing
+              with Flexbox, understanding how state drives changes to an
+              interface in React and responding to user events in React, working
+              with two-dimensional arrays, understanding API documentation and
+              using fetch to perform a POST request to a REST API.
             </p>
 
             <p>
@@ -127,11 +128,15 @@ export function Portfolio() {
             </p>
           </li>
         </ul>
-        <h3>
-          <a href="https://color-picker-soltesz.netlify.app/" target="blank">
+        <h2>
+          <a
+            className="project-title"
+            href="https://color-picker-soltesz.netlify.app/"
+            target="blank"
+          >
             Color Picker
           </a>
-        </h3>
+        </h2>
         <ul className="listing-details">
           <li className="screenshot">
             <a href="https://color-picker-soltesz.netlify.app/" target="blank">
@@ -161,11 +166,15 @@ export function Portfolio() {
           </li>
         </ul>
 
-        <h3>
-          <a href="https://roshambo-ssoltesz.netlify.app" target="blank">
+        <h2>
+          <a
+            className="project-title"
+            href="https://roshambo-ssoltesz.netlify.app"
+            target="blank"
+          >
             Roshambo
           </a>
-        </h3>
+        </h2>
         <ul className="listing-details">
           <li className="screenshot">
             <a href="https://roshambo-ssoltesz.netlify.app" target="blank">
@@ -197,11 +206,15 @@ export function Portfolio() {
             </p>
           </li>
         </ul>
-        <h3>
-          <a href="https://octodex-ssoltesz.netlify.app/" target="blank">
+        <h2>
+          <a
+            className="project-title"
+            href="https://octodex-ssoltesz.netlify.app/"
+            target="blank"
+          >
             Octodex
           </a>
-        </h3>
+        </h2>
         <ul className="listing-details">
           <li className="screenshot">
             <a href="https://octodex-ssoltesz.netlify.app/" target="blank">
@@ -222,7 +235,11 @@ export function Portfolio() {
             <p>
               As an add-on, to practice with React, a second version of this
               project,&nbsp;
-              <a href="https://reactocats-ssoltesz.netlify.app/" target="blank">
+              <a
+                className="project-title"
+                href="https://reactocats-ssoltesz.netlify.app/"
+                target="blank"
+              >
                 Reactocats
               </a>
               &nbsp;was created. The foundation was repurposing the existing
