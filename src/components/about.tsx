@@ -4,8 +4,8 @@ export function About() {
   return (
     <div className="about" id="about">
       <div className="about-details">
-        <h2 className="section-header">About</h2>
-        <h3>Career Summary</h3>
+        <h1 className="section-header">About</h1>
+        <h2>Career Summary</h2>
         <p>
           After spending 15 years in various operational and implementation
           roles within Ed Tech, Shawn felt unsure of his exact career
@@ -40,7 +40,7 @@ export function About() {
         <span className="technical">
           <ul className="skills">
             <li>
-              <h3>Technical Skills</h3>
+              <h2>Technical Skills</h2>
             </li>
             <li className="technical-skills">
               <strong>Data:</strong> PostgreSQL, REST APIs, JSON
@@ -69,7 +69,7 @@ export function About() {
 
           <ul className="community">
             <li>
-              <h3>Technical Community</h3>
+              <h2>Technical Community</h2>
             </li>
             <li className="meetups">
               <a
@@ -126,7 +126,7 @@ export function About() {
             </li>
           </ul>
         </span>
-        <h3>Community Service</h3>
+        <h2>Community Service</h2>
         <p className="community-service">
           <strong>
             <em>St. Pete ReCANvers - Reclaim. Reincarnate. ReCANver</em>
