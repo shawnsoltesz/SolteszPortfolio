@@ -4,8 +4,8 @@ export function Footer() {
     <footer>
       <div className="footer">
         <p>
-          Built with <i className="heart fa fa-heart"></i> in St Petersburg,
-          Florida&nbsp;|&nbsp;©2021 Shawn Soltesz
+          Built with <i className="heart fa fa-heart"></i> in Baltimore,
+          Maryland&nbsp;|&nbsp;©2022 Shawn Soltesz
         </p>
       </div>
     </footer>

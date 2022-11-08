@@ -43,27 +43,21 @@ export function About() {
               <h2>Technical Skills</h2>
             </li>
             <li className="technical-skills">
-              <strong>Data:</strong> PostgreSQL, REST APIs, JSON
-            </li>
-            <li className="technical-skills">
               <strong>DevOps:</strong> AWS, Confluence, Dropbox, GitHub
             </li>
             <li className="technical-skills">
-              <strong>Frameworks:</strong> .NET, React
+              <strong>Frameworks:</strong> React
             </li>
             <li className="technical-skills">
-              <strong>Languages:</strong> C#, SQL, HTML, CSS, Javascript,
-              Typescript
+              <strong>Languages:</strong> HTML, CSS, Javascript, Typescript
             </li>
             <li className="technical-skills">
-              <strong>Projects:</strong> Aha!, Azure DevOps, Jira, Smartsheets
+              <strong>Projects:</strong> Aha!, Jira, Smartsheets
             </li>
+
             <li className="technical-skills">
-              <strong>REST API:</strong> Cloudinary, Bing Map Geocodes, Mapbox
-            </li>
-            <li className="technical-skills">
-              <strong>Software:</strong> Beekeeper Studio, Figma, GSuite,
-              Insomnia, MS Office, VS Code
+              <strong>Software:</strong> Figma, GSuite, MS Office,
+              Salesforce/TaskRay, Slack, VS Code
             </li>
           </ul>
 
@@ -79,14 +73,7 @@ export function About() {
                 Baltimore Techies for Good / TechSoup Group
               </a>
             </li>
-            <li className="meetups">
-              <a
-                href="https://www.meetup.com/St-Pete-NET-Meetup/"
-                target="_blank"
-              >
-                St. Pete.NET Meetup
-              </a>
-            </li>
+
             <li className="meetups">
               <a
                 href="https://www.meetup.com/suncoast-developers-guild/"
@@ -95,14 +82,7 @@ export function About() {
                 Suncoast Developers Guild Open Code Meetup
               </a>
             </li>
-            <li className="meetups">
-              <a
-                href="https://www.meetup.com/Tampa-Bay-PostgreSQL-Users-Group/"
-                target="_blank"
-              >
-                Tampa Bay PostgreSQL Users Group Meetup
-              </a>
-            </li>
+
             <li className="meetups">
               <a
                 href="https://www.meetup.com/SEO-Training-Tampa/"
@@ -114,14 +94,6 @@ export function About() {
             <li className="meetups">
               <a href="https://www.meetup.com/Tech4Good-Tampa/" target="_blank">
                 Tech4Good Tampa Meetup
-              </a>
-            </li>
-            <li className="meetups">
-              <a
-                href="https://www.meetup.com/Women-Who-Code-Tampa/"
-                target="_blank"
-              >
-                Women Who Code Tampa Meetup
               </a>
             </li>
           </ul>
@@ -138,15 +110,14 @@ export function About() {
           <a href="https://www.purposethroughpassion.com/" target="_blank">
             Purpose Through Passion
           </a>
-          . In 9 months, over 300 pounds of cans have been recycled with
+          . In 12 months, over 500 pounds of cans have been recycled with
           proceeds donated to benefit their clients in recovery.
         </p>
         <p className="community-service">
           <strong>
             <em>Technical Solutions&nbsp;/&nbsp;Web Development Day</em>
           </strong>
-          <br />
-          Hackathon to benefit community nonprofits through&nbsp;
+          &nbsp;-&nbsp;Hackathon to benefit community nonprofits through&nbsp;
           <a
             href="https://www.meetup.com/BaltimoreTechiesforGood/"
             target="_blank"
@@ -157,22 +128,12 @@ export function About() {
           <br />
           My role on the freshly assembled team was to gather assets and build
           out one of the new landing pages on the organization&apos;s GoDaddy
-          platform, dedicated to their&nbsp;
-          <a href="https://tmwks.org/" target="blank">
-            Teamworks
-          </a>
-          &nbsp;virtual incubator program offered through&nbsp;
-          <a href="https://bjhsg.org/" target="blank">
-            Baltimore Job Hunters Support Group
-          </a>
-          &nbsp;and their expansion under the nonprofit&nbsp;
-          <a href="https://lifecareerpivoteer.org/" target="blank">
-            LifeCareer Pivoteers
-          </a>
-          . In addition to the website assembly, my contributions also included
-          identifying gaps with the overall information architecture and flow in
-          bringing together three landing pages together under one main website
-          in a cohesive manner.
+          platform, dedicated to their virtual incubator program offered through
+          Baltimore Job Hunters Support Group and their expansion under the
+          nonprofit LifeCareer Pivoteers. In addition to the website assembly,
+          my contributions also included identifying gaps with the overall
+          information architecture and flow in bringing together three landing
+          pages together under one main website in a cohesive manner.
           <br /> <br />
           As a result of our work, Janet Glover-Kerkvliet, Executive Director,
           shared this feedback - <br />
@@ -191,10 +152,10 @@ export function About() {
             appreciate their willingness to work with a platform that I was used
             to.
             <br />
-            <br /> I’m so grateful for tech people who are interested in helping
-            nonprofits. I know that their skill and expertise is so valuable and
-            the assistance I&#39;ve received would have cost thousands, so
-            I&#39;m really in awe of everyone&#39;s generosity.
+            <br /> I&#39;m so grateful for tech people who are interested in
+            helping nonprofits. I know that their skill and expertise is so
+            valuable and the assistance I&#39;ve received would have cost
+            thousands, so I&#39;m really in awe of everyone&#39;s generosity.
           </em>
           &quot;
         </p>
