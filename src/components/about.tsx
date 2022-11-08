@@ -6,14 +6,22 @@ export function About() {
       <div className="about-details">
         <h1 className="about-section-header">About</h1>
         <h2>Career Summary</h2>
+
         <p>
-          After spending 15 years in various operational and implementation
-          roles within Ed Tech, Shawn felt unsure of his exact career
-          trajectory. Therefore after considering what excited him about his
-          work experiences, all signs pointed to working with, and supporting,
-          the technology that powered the products and the users. Therefore, he
-          decided to take a professional pause and enrolled in the three month
-          immersive Full Stack Web Development bootcamp with&nbsp;
+          Shawn is a multifaceted professional with over 15 years of operational
+          and implementation experience in Auto and Ed Tech. He is interested in
+          opportunities that leverages his software development interests in
+          product and web development, UX/UI and QA. He is a strong communicator
+          and collaborator who has an appetite to learn, is adaptable, curious,
+          analytical, and has a knack for verifying results are in line with
+          requirements and expected behavior. Shawn possesses experience with
+          agile software development and the tools used to support this approach
+          through the SDLC.
+        </p>
+
+        <p>
+          Additionally, Shawn attended the Summer 2021 three month immersive Full Stack Web
+          Development bootcamp with&nbsp;
           <a
             className="sdg"
             href="https://suncoast.io/grads/cohort-22/"
@@ -24,17 +32,6 @@ export function About() {
           .&nbsp;In this full-time bootcamp, Shawn pursued the skills and
           knowledge that offers opportunities to be hands-on with building and
           supporting the products created and consumed by the end-user.
-        </p>
-        <p>
-          Shawn is a multifaceted professional who is interested in pursuing a
-          career that leverages his professional experience while focusing on
-          web development with interests in front end coding, QA and information
-          architecture; as well as supporting agile project management and
-          business analysis functions. He has an appetite to learn, is flexible,
-          curious, analytical, and has a knack for ensuring results are in line
-          with expected outcomes and requirements. He possesses experience with
-          agile software development and the tools used to support this approach
-          through the SDLC.
         </p>
 
         <span className="technical">
@@ -52,12 +49,13 @@ export function About() {
               <strong>Languages:</strong> HTML, CSS, Javascript, Typescript
             </li>
             <li className="technical-skills">
-              <strong>Projects:</strong> Aha!, Jira, Smartsheets
+              <strong>Projects:</strong> Aha!, Jira, Salesforce TaskRay,
+              Smartsheets
             </li>
 
             <li className="technical-skills">
-              <strong>Software:</strong> Figma, GSuite, MS Office,
-              Salesforce/TaskRay, Slack, VS Code
+              <strong>Software:</strong> Figma, GSuite, MS Office, Salesforce,
+              Slack, VS Code
             </li>
           </ul>
 

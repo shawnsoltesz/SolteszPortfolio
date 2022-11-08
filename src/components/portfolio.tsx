@@ -58,7 +58,7 @@ export function Portfolio() {
                 &nbsp;of the pages/UI using Figma, create the&nbsp;
                 <a
                   href="https://docs.google.com/document/d/1zQj8uuRNkCFhO3G8e0LPYNMh4MNDw0qIUBNE1fsCvRE/edit?usp=sharing"
-                  target="blank"
+                  rel='noreferrer' target="_blank"
                 >
                   Entity Relationship Diagram
                 </a>
@@ -98,14 +98,14 @@ export function Portfolio() {
           <a
             className="project-title"
             href="https://mine-sweeper-ssoltesz.netlify.app/"
-            target="blank"
+            rel='noreferrer' target="_blank"
           >
             Minesweeper
           </a>
         </h2>
         <ul className="listing-details">
           <li className="screenshot">
-            <a href="https://mine-sweeper-ssoltesz.netlify.app/" target="blank">
+            <a href="https://mine-sweeper-ssoltesz.netlify.app/" rel='noreferrer' target="_blank">
               <img
                 src={minesweeper}
                 alt="Minesweeper website screenshot"
