@@ -10,13 +10,13 @@ export function About() {
         <p>
           Shawn is a multifaceted professional with over 15 years of operational
           and implementation experience in Auto and Ed Tech. He is interested in
-          opportunities that leverages his software development interests in
+          opportunities that leverage his software development interests in
           product and web development, UX/UI and QA. He is a strong communicator
           and collaborator who has an appetite to learn, is adaptable, curious,
-          analytical, and has a knack for verifying results are in line with
-          requirements and expected behavior. Shawn possesses experience with
-          agile software development and the tools used to support this approach
-          through the SDLC.
+          analytical, and has a knack for verifying results that are in line
+          with requirements and expected behavior. Shawn possesses experience
+          with agile software development and the tools used to support this
+          approach through the SDLC.
         </p>
 
         <p>
