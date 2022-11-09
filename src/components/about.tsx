@@ -29,10 +29,11 @@ export function About() {
           >
             Suncoast Developers Guild
           </a>
-          .&nbsp;Through this full-time bootcamp, Shawn pursued the skills and
-          education to be hands-on and create front and back end coding
-          projects, before building a full stack application -{' '}
-          <a href="https://StPete.pet" target="_blank">
+          &nbsp;in St Petersburg, FL. Through this full-time bootcamp, Shawn
+          pursued the skills and education to be hands-on and create front and
+          back end coding projects, before building a full stack application
+          -&nbsp;
+          <a className="sdg" href="https://StPete.pet" target="_blank">
             StPete.pet
           </a>
           .
