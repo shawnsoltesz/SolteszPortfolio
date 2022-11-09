@@ -12,14 +12,19 @@ export function Portfolio() {
       <div className="portfolio">
         <h1 className="portfolio-section-header">Portfolio</h1>
         <h2>
-          <a className="project-title" href="https://stpete.pet" target="blank">
+          <a
+            className="project-title"
+            href="https://stpete.pet"
+            rel="noreferrer"
+            target="_blank"
+          >
             StPete.pet
           </a>
         </h2>
 
         <ul className="listing-details">
           <li className="screenshot">
-            <a href="https://stpete.pet" target="blank">
+            <a href="https://stpete.pet" rel="noreferrer" target="_blank">
               <img
                 src={stpetepet}
                 alt="StPete dot pet website screenshot"
@@ -44,21 +49,24 @@ export function Portfolio() {
                 <strong>Phase One</strong>&nbsp;-&nbsp;Create&nbsp;
                 <a
                   href="https://docs.google.com/document/d/1rwu-7aoeaR-BJW92am9CslifYHxaMW6vYoZ6-sM8Frk/edit?usp=sharing"
-                  target="blank"
+                  rel="noreferrer"
+                  target="_blank"
                 >
                   user stories
                 </a>
                 , build&nbsp;
                 <a
                   href="https://docs.google.com/document/d/1qM-4b8j0g1N7xRRZVd6H6ORSk7xBbCkMz435XwUZUDQ/edit?usp=sharing"
-                  target="blank"
+                  rel="noreferrer"
+                  target="_blank"
                 >
                   wireframes
                 </a>
                 &nbsp;of the pages/UI using Figma, create the&nbsp;
                 <a
                   href="https://docs.google.com/document/d/1zQj8uuRNkCFhO3G8e0LPYNMh4MNDw0qIUBNE1fsCvRE/edit?usp=sharing"
-                  rel='noreferrer' target="_blank"
+                  rel="noreferrer"
+                  target="_blank"
                 >
                   Entity Relationship Diagram
                 </a>
@@ -98,14 +106,19 @@ export function Portfolio() {
           <a
             className="project-title"
             href="https://mine-sweeper-ssoltesz.netlify.app/"
-            rel='noreferrer' target="_blank"
+            rel="noreferrer"
+            target="_blank"
           >
             Minesweeper
           </a>
         </h2>
         <ul className="listing-details">
           <li className="screenshot">
-            <a href="https://mine-sweeper-ssoltesz.netlify.app/" rel='noreferrer' target="_blank">
+            <a
+              href="https://mine-sweeper-ssoltesz.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img
                 src={minesweeper}
                 alt="Minesweeper website screenshot"
@@ -132,14 +145,19 @@ export function Portfolio() {
           <a
             className="project-title"
             href="https://color-picker-soltesz.netlify.app/"
-            target="blank"
+            rel="noreferrer"
+            target="_blank"
           >
             Color Picker
           </a>
         </h2>
         <ul className="listing-details">
           <li className="screenshot">
-            <a href="https://color-picker-soltesz.netlify.app/" target="blank">
+            <a
+              href="https://color-picker-soltesz.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img
                 src={colorpicker}
                 alt="Color Picker website screenshot"
@@ -170,14 +188,19 @@ export function Portfolio() {
           <a
             className="project-title"
             href="https://roshambo-ssoltesz.netlify.app"
-            target="blank"
+            rel="noreferrer"
+            target="_blank"
           >
             Roshambo
           </a>
         </h2>
         <ul className="listing-details">
           <li className="screenshot">
-            <a href="https://roshambo-ssoltesz.netlify.app" target="blank">
+            <a
+              href="https://roshambo-ssoltesz.netlify.app"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img
                 src={roshambo}
                 alt="Roshambo website screenshot"
@@ -194,7 +217,11 @@ export function Portfolio() {
               player&apos;s selection. This version of the game also offers
               additional options for a player to select, based on a different
               version of the game -&nbsp;
-              <a href="https://youtu.be/x5Q6-wMx-K8" target="blank">
+              <a
+                href="https://youtu.be/x5Q6-wMx-K8"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <em>Rock, Paper, Scissors, Lizard, Spock</em>
               </a>
               .
@@ -210,14 +237,19 @@ export function Portfolio() {
           <a
             className="project-title"
             href="https://octodex-ssoltesz.netlify.app/"
-            target="blank"
+            rel="noreferrer"
+            target="_blank"
           >
             Octodex
           </a>
         </h2>
         <ul className="listing-details">
           <li className="screenshot">
-            <a href="https://octodex-ssoltesz.netlify.app/" target="blank">
+            <a
+              href="https://octodex-ssoltesz.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img src={octodex} alt="Octodex website screenshot" width="250" />
             </a>
           </li>
@@ -238,7 +270,8 @@ export function Portfolio() {
               <a
                 className="second-version-project-title"
                 href="https://reactocats-ssoltesz.netlify.app/"
-                target="blank"
+                rel="noreferrer"
+                target="_blank"
               >
                 Reactocats
               </a>

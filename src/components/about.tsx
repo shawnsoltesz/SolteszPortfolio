@@ -20,18 +20,22 @@ export function About() {
         </p>
 
         <p>
-          Additionally, Shawn attended the Summer 2021 three month immersive Full Stack Web
-          Development bootcamp with&nbsp;
+          Additionally, Shawn attended the Summer 2021 three month immersive
+          Full Stack Web Development bootcamp with&nbsp;
           <a
             className="sdg"
             href="https://suncoast.io/grads/cohort-22/"
-            target="blank"
+            target="_blank"
           >
             Suncoast Developers Guild
           </a>
-          .&nbsp;In this full-time bootcamp, Shawn pursued the skills and
-          knowledge that offers opportunities to be hands-on with building and
-          supporting the products created and consumed by the end-user.
+          .&nbsp;Through this full-time bootcamp, Shawn pursued the skills and
+          education to be hands-on and create front and back end coding
+          projects, before building a full stack application -{' '}
+          <a href="https://StPete.pet" target="_blank">
+            StPete.pet
+          </a>
+          .
         </p>
 
         <span className="technical">
