@@ -162,9 +162,9 @@ export function About() {
           </em>
           &quot;
         </p>
-        <button className="button" type="submit">
+        {/* <button className="button" type="submit">
           <a
-            href="https://docs.google.com/document/d/1Q0ViUKuc30iZfFhvI1lbVgyZfo_tfEDQ/edit?usp=sharing&ouid=102913186379479915182&rtpof=true&sd=true"
+            href="https://docs.google.com/document/d/ViUKuc30iZfFhvI1lbVgyZfo_tfEDQ/edit?usp=sharing&ouid=102913186379479915182&rtpof=true&sd=true"
             target="_blank"
           >
             <span className="button-text">
@@ -172,7 +172,7 @@ export function About() {
               &nbsp;View Resume
             </span>
           </a>
-        </button>
+        </button> */}
       </div>
     </div>
   )
